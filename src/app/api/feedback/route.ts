@@ -4,6 +4,8 @@ import { prisma } from "@/lib/prisma";
 import { feedbackSchema } from "@/schemas/feedbackSchemas";
 import { ZodError } from "zod";
 
+import type { Prisma } from "@prisma/client";
+
 export async function POST(req: NextRequest) {
   try {
     const { isAuthenticated, user } = await verifyToken(req);
@@ -32,9 +34,9 @@ export async function POST(req: NextRequest) {
     });
 
     // Handle vote removal or change
-    const result = await prisma.$transaction(async (tx) => {
+    const result = await prisma.$transaction(async (tx: Prisma.TransactionClient) => {
       let updatedFeedback;
-      let statsUpdate = {};
+      let statsUpdate: Record<string, unknown> = {};
 
       if (existingFeedback) {
         // If same interaction type, remove the vote
@@ -105,7 +107,7 @@ export async function POST(req: NextRequest) {
   } catch (error) {
     if (error instanceof ZodError) {
       return NextResponse.json(
-        { error: "Invalid data", details: error.errors },
+        { error: "Invalid data", details: error.issues },
         { status: 400 }
       );
     }

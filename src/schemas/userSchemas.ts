@@ -20,9 +20,7 @@ export const cadastroSchema = z
 
     confirmSenha: z.string().min(1, "Por favor, confirme sua senha"),
 
-    role: z.enum(["SAUDE", "SUS"], {
-      errorMap: () => ({ message: "Selecione um tipo de usuário" }),
-    }),
+    role: z.enum(["SAUDE", "SUS"], { error: "Selecione um tipo de usuário"}),
   })
   .refine((data) => data.senha === data.confirmSenha, {
     path: ["confirmPassword"],
