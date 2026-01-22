@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm i && npx prisma generate && npx prisma db seed && next build",
+    "build": "npm i && npx prisma generate && npx tsx prisma /seed.ts && next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
