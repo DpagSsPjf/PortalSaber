@@ -1,6 +1,7 @@
-import { prisma } from '../src/lib/prisma';
-import { Role } from "@prisma/client";
+import { PrismaClient, Role } from "@prisma/client";
 import { hash } from "bcryptjs";
+
+const prisma = new PrismaClient();
 
 async function main() {
   try {

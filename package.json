@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install && npx prisma generate && next build",
+    "build": "npm install && npx prisma generate && npx prisma db seed && next build",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
@@ -17,7 +17,6 @@
     "@hookform/resolvers": "^5.0.1",
     "@prisma/client": "^6.19.2",
     "@types/multer": "^2.0.0",
-    "aprendendo-next": "file:",
     "bcryptjs": "^3.0.2",
     "framer-motion": "^12.16.0",
     "jsonwebtoken": "^9.0.2",
