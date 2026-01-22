@@ -20,7 +20,9 @@ export const cadastroSchema = z
 
     confirmSenha: z.string().min(1, "Por favor, confirme sua senha"),
 
-    role: z.enum(["SAUDE", "SUS"], { error: "Selecione um tipo de usuário"}),
+    role: z.enum(["SUS", "SAUDE"], {
+        errorMap: () => ({ message: "O acesso (role) deve ser 'Saude' ou 'SUS' "}),
+    }),
   })
   .refine((data) => data.senha === data.confirmSenha, {
     path: ["confirmPassword"],
@@ -49,7 +51,7 @@ export const criarUsuarioBackendSchema = z.object({
     .string()
     .min(6, "Senha deve ter pelo menos 6 caracteres")
     .max(100, "Senha muito longa"),
-  role: z.enum(["SAUDE", "SUS"]),
+  role: z.enum(["SUS", "SAUDE"]),
 });
 
 // Schema para atualização de usuário
@@ -67,7 +69,7 @@ export const atualizarUsuarioSchema = z.object({
     .min(6, "Senha deve ter pelo menos 6 caracteres")
     .max(100, "Senha muito longa")
     .optional(),
-  role: z.enum(["SAUDE", "SUS"]).optional(),
+  role: z.enum(["SUS", "SAUDE"]).optional(),
 });
 
 // Schema para busca por ID

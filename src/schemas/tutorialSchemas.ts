@@ -21,7 +21,9 @@ const cardDataSchema = z.object({
     slug: z.string().min(1, "O slug é obrigatório"),
     image: z.string().min(1,"A URL da imagem deve ser válida"),
     description: z.string().min(1, "A descrição é obrigatória"),
-    role: z.enum(["Saude", "SUS"], {error: "O acesso (role) deve ser 'Saude' ou 'SUS'" })
+    role: z.enum(["Saude", "SUS"], {
+        errorMap: () => ({ message: "O acesso (role) deve ser 'Saude' ou 'SUS' "}),
+    }),
 });
 
 //conteudo detalhado do tutorial

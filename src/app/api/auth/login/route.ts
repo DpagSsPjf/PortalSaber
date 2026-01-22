@@ -56,7 +56,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json(
         { 
           error: 'Dados de login inválidos.',
-          details: error.issues.map(err => ({
+          details: error.errors.map(err => ({
             field: err.path.join('.'),
             message: err.message
           }))
