@@ -1,0 +1,46 @@
+{
+  "id": "digiSUS",
+  "titulo": "Tutorial DigiSUS Gestor",
+  "capitulos": [
+    {
+      "id": "O-que-e-o-DigiSUS-Gestor",
+      "titulo": "O que é o DigiSUS Gestor",
+      "conteudo": [
+        {
+          "tipo": "capitulo",
+          "texto": "1 - O que é o DigiSUS Gestor - Modulo de Planejamento"
+        },
+    {
+      "tipo": "paragrafo",
+      "texto": "O DigiSUS Gestor – Módulo Planejamento (DGMP), criado em 2017 como um dos componentes da estratégia e-Saúde, consolidou-se como uma plataforma digital para registro dos dados do Plano de Saúde (PS) e da Programação Anual de Saúde (PAS), bem como para elaborar e enviar o Relatório Detalhado do Quadrimestre Anterior (RDQA) e o Relatório de Gestão (RG)"
+    },
+    {
+      "tipo":"lista",
+      "itens":[
+        {
+          "titulo": "Os objetivos do DGMP são",
+          "subitens":[
+            {
+              "subtitulo": "I",
+              "texto": " O aperfeiçoamento da gestão em saúde;"
+            },
+            {
+            "subtitulo": "II",
+              "texto": "A facilitação do acompanhamento das políticas de saúde;"
+            },
+            {
+              "subtitulo": "III",
+              "texto": "O aprimoramento dos recursos públicos;"
+            },
+            {
+              "subtitulo": "IV",
+              "texto": "A transparência das políticas de saúde e do uso dos recursos públicos em saúde."
+            }
+          ]
+        }
+      ]
+    }
+    ]
+    }
+  ]
+}
