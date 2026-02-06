@@ -3,44 +3,415 @@
   "titulo": "Tutorial DigiSUS Gestor",
   "capitulos": [
     {
-      "id": "O-que-e-o-DigiSUS-Gestor",
-      "titulo": "O que é o DigiSUS Gestor",
+      "id": "Prefacio",
+      "titulo": "Prefácio",
       "conteudo": [
         {
-          "tipo": "capitulo",
-          "texto": "1 - O que é o DigiSUS Gestor - Modulo de Planejamento"
+          "tipo": "paragrafo",
+          "texto": "O Ministério da Saúde (MS) tem desenvolvido um conjunto de ações para qualificar o planejamento do Sistema Único de Saúde (SUS) e fortalecer o processo de regionalização. Estas iniciativas têm como finalidade aprimorar a organização da atenção e promover a alocação mais eficiente dos recursos. Uma prioridade do MS é a transformação digital do SUS, visando à ampliação do acesso, à promoção da integralidade e à continuidade do cuidado em saúde."
         },
-    {
-      "tipo": "paragrafo",
-      "texto": "O DigiSUS Gestor – Módulo Planejamento (DGMP), criado em 2017 como um dos componentes da estratégia e-Saúde, consolidou-se como uma plataforma digital para registro dos dados do Plano de Saúde (PS) e da Programação Anual de Saúde (PAS), bem como para elaborar e enviar o Relatório Detalhado do Quadrimestre Anterior (RDQA) e o Relatório de Gestão (RG)"
+        {
+          "tipo": "paragrafo",
+          "texto": "A modernização dos sistemas de informação do SUS, com foco na integração de dados entre as diversas plataformas existentes, gera grandes avanços para o sistema como um todo. Ela é fundamental para qualificar o planejamento e para o monitoramento das ações e dos serviços de saúde. Além disso, também amplia a transparência das políticas públicas, subsidia a tomada de decisão pelos gestores e fortalece o controle social."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O DigiSUS Gestor – Módulo Planejamento (DGMP) é um sistema de informação pactuado na Comissão Intergestores Tripartite (CIT) e aprovado no Pleno do Conselho Nacional de Saúde (CNS). Ele foi desenvolvido com base nas diretrizes do planejamento do SUS e na internalização da lógica do ciclo de planejamento nos âmbitos estadual,distrital e municipal. O DigiSUS Gestor serve para apoiar os gestores no registro e na elaboração dos instrumentos de planejamento, contribuindo para o monitoramento das políticas públicas e a transparênciada aplicação dos recursos no SUS."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Este manual tem como propósito orientar os usuários (gestores e técnicos) na utilização do DGMP e está disponível em ambiente digital por intermédio do endereço https://digisusgmp.saude.gov.br. Apresentado em formato de passo a passo, o conteúdo visa facilitar a compreensão e a execução dasfuncionalidades no sistema. A publicação está organizada em dois volumes: este, voltado a gestores e técnicos, e outro, direcionado aos Conselhos de Saúde."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A Secretaria-Executiva do MS tem a satisfaçãode lançar a versão atualizada do guia orientador para os usuários do DGMP (gestores e técnicos). O material é fruto do trabalho da área técnica da Coordenação de Gestão dos Instrumentos de Planejamento no SUS, vinculada à Coordenação Geral de Planejamento no SUS, do Departamento de Gestão Interfederativa e Participativa (Coginp/CGPS/Dgip/SE/MS)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Espera-se que este manual seja um recurso útil e auxilie no aprimoramento das práticas de gestão, promovendo uma integração cada vez mais efetiva entre os diversos níveis de governo."
+        }
+      ]
     },
     {
-      "tipo":"lista",
-      "itens":[
+      "id": "O-que-e-o-DigiSUS-Gestor",
+      "titulo": "1. O que é o DigiSUS Gestor - Modulo de Planejamento",
+      "conteudo": [
         {
-          "titulo": "Os objetivos do DGMP são",
-          "subitens":[
+          "tipo": "paragrafo",
+          "texto": "O DigiSUS Gestor – Módulo Planejamento (DGMP), criado em 2017 como um dos componentes da estratégia e-Saúde, consolidou-se como uma plataforma digital para registro dos dados do Plano de Saúde (PS) e da Programação Anual de Saúde (PAS), bem como para elaborar e enviar o Relatório Detalhado do Quadrimestre Anterior (RDQA) e o Relatório de Gestão (RG)"
+        },
+        {
+          "tipo":"lista",
+          "itens":[
             {
-              "subtitulo": "I",
-              "texto": " O aperfeiçoamento da gestão em saúde;"
-            },
+              "titulo": "Os objetivos do DGMP são",
+              "subitens":[
+                {
+                  "subtitulo": "I",
+                  "texto": " O aperfeiçoamento da gestão em saúde;"
+                },
+                {
+                "subtitulo": "II",
+                  "texto": "A facilitação do acompanhamento das políticas de saúde;"
+                },
+                {
+                  "subtitulo": "III",
+                  "texto": "O aprimoramento dos recursos públicos;"
+                },
+                {
+                  "subtitulo": "IV",
+                  "texto": "A transparência das políticas de saúde e do uso dos recursos públicos em saúde."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "O DGMP foi instituído pela Portaria de Consolidação n.º 1, de 28 de setembro de 2017, nos artigos 435 a 441, em substituição ao Sistema de Apoio ao Relatório de Gestão (SargSUS) e ao Sistema de Pactuação de Indicadores do Pacto pela Saúde (Sispacto). Assim, o DGMP é o sistema oficial do SUS, a partir de 2018, para registro dos instrumentos de planejamento e seus documentos."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto":"Por ser um sistema em constante evolução, novas funcionalidades serão desenvolvidas e novas versões serão publicadas ao longo do tempo, garantido a melhoria contínua do desempenho, segurança e usabilidade do sistema, além do suporte técnico adequado."
+        }
+      ]
+    },
+    {
+      "id": "Visao-geral-do-sistema",
+      "titulo": "2. Visão geral do sistema",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Com base no ciclo do planejamento e nos instrumentos a serem elaborados, a alimentação do sistema tem início com o registro de Diretrizes, Objetivos, Metas e Indicadores (DOMI) do Plano de Saúde (PS). Essas informações são apresentadas automaticamente pelo sistema no componente da Programação Anual de Saúde (PAS)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A cada ano da PAS, os gestores devem anualizar as metas e estabelecer as respectivas ações. Ao finalizar o PS, automaticamente as programações estarão habilitadas para registro no sistema. A PAS tambémrecebe algumas informações orçamentárias, como o demonstrativo da programação de despesas com saúde por subfunção orçamentária: Categoria Econômica e Fonte de Recursos, cujo preenchimento deve ser feito com base nas informações da Lei Orçamentária Anual (LOA) do ente."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Assim, de forma encadeada, os instrumentos de planejamento em saúde são registrados no DGMP e disponibilizados no acesso público do sistema, respeitando a temporalidade de elaboração e execução de cada um, dando mais clareza à inter-relação dos instrumentos. Após a inserção das informações e a finalização do PS e das PAS, o sistema habilita automaticamente os relatórios para elaboração do ano correspondente."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Destaca-se, por fim, que a construção do sistema foi concomitante às discussões de outras agendas tripartites, como: o rateio de recursos, o planejamento regional integrado, o caixa único, a redefinição das subfunções da saúde e a integração dos sistemas informatizados. Sendo assim, e por ser um sistema em constante evolução, é certo que novas funcionalidades podem ser ajustadas e agregadas ao longo do tempo."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A Pactuação Interfederativa de Indicadores 2017-2021 foi incorporada ao DGMP devido à sua relação direta com o processo de planejamento em saúde, observando o fluxo disposto na Resolução da Comissão Intergestores Tripartite (CIT) n.º 8, de 24 de novembro de 2016. O sistema disponibiliza a planilha de indicadores nacionais do ano correspondente para a inserção das metas pactuadas pelos estados, pelos municípios e pelo Distrito Federal (DF)."
+        }
+      ]
+    },
+    {
+      "id": "Sobre-os-perfis-e-as-formas-de-acesso",
+      "titulo": "3. Sobre os perfis e as formas de acesso",
+      "conteudo":[
+        {
+          "tipo": "paragrafo",
+          "texto": "Sendo um sistema para registro de informações e elaboração dos instrumentos de planejamento – obrigações da gestão do SUS –, o preenchimento do DGMP é restrito aos técnicos e gestores das Secretarias Municipais e Estaduais de Saúde e aos conselheiros de saúde."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
             {
-            "subtitulo": "II",
-              "texto": "A facilitação do acompanhamento das políticas de saúde;"
-            },
+              "titulo": "O acesso restrito para o preenchimento do sistema possui os seguintes perfis",
+              "subitens":[
+                {
+                  "subtitulo": "Gestor Estadual/Municipal",
+                  "texto": "perfil específico para o gestor – secretário estadual de saúde e secretário municipal de saúde – ou adjunto, quando houver. Permite a esse usuário a visualização e o preenchimento de todos os campos do sistema. Somente este perfil possui permissão para envio dos relatórios (RDQA e RG) e das metas da Pactuação Interfederativa de Indicadores (2018 a 2021) para apreciação do Conselho de Saúde. O perfil Gestor Estadual homologa a Pactuação Interfederativa dos Indicadores dos municípios."
+                },
+                {
+                  "subtitulo": "Tecnico Estadual/Municipal",
+                  "texto": " perfil específico para técnicos de planejamento que registram os dados no sistema. Permite a esse usuário a visualização e o preenchimento de todos os campos do sistema, exceto o envio dos RDQA e doRG. O perfil Técnico Estadual poderá homologar as pactuações (2018 a 2021) dos municípios."
+                },
+                {
+                  "subtitulo": "Conselho Estadual/Municipal",
+                  "texto": "perfil específico para conselheiros estaduais/municipais de saúde. Permite a esses usuários visualizar todas as informações já finalizadas pela gestão (PS, PAS, Pactuação Interfederativa de Indicadores – 2018 a 2021 –, RDQA e RG). Este perfil emite, exclusivamente, parecer e considerações na pactuação e nos relatórios, anexando arquivos correspondentes, quando couber"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "imagem",
+          "src":"/assets/img/digisus/Quadro_de_Perfis_digisus.png",
+          "alt":"Quadro de Perfis do DGMP"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para acessar o DGMP com esses perfis, os usuários devem estar cadastrados no Sistema de Cadastro e Permissões de Acesso do Ministério da Saúde (SCPA), disponível no seguinte endereço: https://scpa.saude.gov.br/ ."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Caso não possua cadastro, o usuário deve acessar o SCPA no link supracitado e clicar em “Novo por aqui?”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/DigiSUS_Print_01.png",
+          "alt": "Tela de cadastro no SCPA"
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Na tela seguinte, deve inserir, seu número do Cadastro de Pessoa Física (CPF) e clicar no botão “Continuar”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Cadastro_SCPA_DGMP.png",
+          "alt": "Tela SCPA dos dados pessoais"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Depois, deve responder ao desafio de segurança, cujas informações são pessoais, por isso o cadastro é pessoal e intransferível."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Tela_SCPA_Validar_dados.png",
+          "alt": "Tela SCPA para validar os dados"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Em seguida, devem-se validar os dados pessoais, preencher as informações de identificação solicitadas (apenas os dados obrigatórios), informar endereço de e-mail e cadastrar uma senha de acesso."
+        },
+        {
+          "tipo":"lista",
+          "itens":[
             {
-              "subtitulo": "III",
-              "texto": "O aprimoramento dos recursos públicos;"
-            },
+              "titulo":"Atenção",
+              "subitens":[
+                {
+                  "subtitulo":"1",
+                  "texto":"O SCPA não permite mais de um cadastro com o mesmo CPF."
+                },
+                {
+                  "subtitulo":"2",
+                  "texto":"O e-mail cadastrado ficará vinculado ao CPF informado pelo usuário."
+                },
+                {
+                  "subtitulo":"3",
+                  "texto":" Recomenda-se fazer o cadastro utilizando um e-mail pessoal, não institucional."
+                },
+                {
+                  "subtitulo":"4",
+                  "texto":" Este cadastro é único para todos os sistemas do Ministério da Saúde disponíveis no SCPA."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Cadastro realizado, o usuário deve acessar o link da plataforma do SCPA Usuário (https://acesso.saude.gov.br/login) e solicitar acesso ao DGMP, de acordo com seu perfil."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Observação: caso já possua cadastro no SCPA, o usuário deverá fazer o login no sistema para solicitar acesso ao DGMP."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Em “Outros Sistemas”, o usuário deve pesquisar por “DGMP”, clicar em “Solicitar Acesso”, escolher seu perfil, informar os dados solicitados e clicar novamente em “Solicitar Acesso”"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A solicitação do usuário permanecerá com o status “pendente” até que seja autorizado pelos responsáveis em sua esfera; os que possuem o perfil Analista (Estadual, Regional, Federal e Sems)."
+        },
+        {
+          "tipo":"lista",
+          "itens": [
             {
-              "subtitulo": "IV",
-              "texto": "A transparência das políticas de saúde e do uso dos recursos públicos em saúde."
+              "titulo": "Cada tipo de analista autoriza o acesso de um conjunto de usuários, conforme detalhado a seguir",
+              "subitens": [
+                {
+                  "subtitulo":"Analista Federal",
+                  "texto":"perfil exclusivo da equipe responsável pelo DGMP. Autoriza somente os perfis Gestor, Técnico e Analista do Distrito Federal e das Superintendências Estaduais do Ministério da Saúde e seus Serviços de Articulação Interfederativa e Participativa (Sems/Seinp). Permite visualizar os dados registrados por todos os usuários."
+                },
+                {
+                  "subtitulo":"Analista Sems",
+                  "texto":"perfil exclusivo dos Sems/Seinp. Autoriza os perfis Gestor, Técnico e Analista do estado correspondente. Permite somente visualizar os dados registrados pelo estado e por seus municípios."
+                },
+                {
+                  "subtitulo":"Analista Estadual",
+                  "texto":"perfil exclusivo da equipe de planejamento da Secretaria Estadual de Saúde (SES). Autoriza os perfis Gestor e Técnico dos municípios, o perfil do Conselho Municipal e do Conselho Estadual de Saúde, o perfil Analista Regional e o perfil Analista do Conselho de Secretarias Municipais de Saúde (Cosems). Permite somente visualizar os dados registrados pelo estado e por seus municípios."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo":"lista",
+          "itens":[
+            {
+              "titulo":"O perfil Analista do Distrito Federal autoriza o acesso do perfil Conselho do Distrito Federal",
+              "subitens": [
+                {
+                  "subtitulo":"Analista Regional",
+                  "texto":"perfil exclusivo do técnico indicado pelo gestor estadual, conforme lógica das regiões de saúde. Autoriza os perfis Gestor, Técnico e Conselho de Saúde dos municípios da(s) região(ões) de saúde correspondente(s). Permite somente visualizar os dados registrados pelo conjunto de municípios que compõem a região de saúde correspondente a seu perfil."
+                },
+                {
+                  "subtitulo":"Analista Cosems",
+                  "texto":"perfil exclusivo dos técnicos do Cosems. Este perfil não está habilitado para autorizar acesso de usuários ao sistema. Permite somente visualizar os dados registrados pelos municípios de seu estado."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Ao perfil Analista Federal é permitida a visualização dos dados cadastrados por todos os usuários dos entes: estados, DF e municípios."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Ao perfil Analista Estadual e ao perfil Analista Sems são permitidas visualizações dos dados cadastrados por seu estado e pelos seus municípios."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Ao perfil Analista Regional é permitida a visualização dos dados cadastrados pelo conjunto de municípios que compõem a região de saúde do perfil."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Ressalta-se que o perfil Analista Cosems não apresenta a funcionalidade para autorizações de acesso de usuários ao sistema. No entanto, esse perfil é importante para o apoio aos gestores municipais de saúde na alimentação do sistema."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "É de responsabilidade dos gestores de saúde, estaduais e municipais, bem como dos Conselhos de Saúde, indicar os responsáveis pelo acesso ao DGMP e informar aos respectivos analistas para autorização do cadastro."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Eventuais atualizações de dados cadastrais ou solicitação de mudança de perfil devem ser feitas pelo usuário."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Os analistas cadastrados para autorizar os acessos no SCPA apenas liberarão mediante as indicações recebidas formalmente pelos gestores e Conselhos de Saúde, em cada esfera correspondente."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Também é de responsabilidade do gestor ou do técnico designado pedir o cancelamento dos perfis em sua esfera de gestão, em caso de desligamento de usuário anteriormente cadastrado."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Da mesma maneira, o Conselho de Saúde deverá solicitar cancelamento de usuário que não esteja mais vinculado ao referido órgão deliberativo."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Uma vez liberado o cadastro, para acessar o DGMP (digisusgmp.saude.gov.br), o usuário deve entrar com o mesmo e-mail e a mesma senha cadastrados no SCPA."
+        }
+      ]
+    },
+    {
+      "id": "Como-Acessar-o-Sistema",
+      "titulo": "4. Como Acessar o Sistema",
+      "conteudo":[
+        {
+          "tipo": "subtopico",
+          "titulo": "4.1 Menu Superior",
+          "conteudo":[
+            {
+              "tipo":"paragrafo",
+              "texto": "No botão 'Início', é possível consultar as informações recentes"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.1.1 Execução Orçamentária",
+          "conteudo":[
+            {
+              "tipo":"paragrafo",
+              "texto": "Disponibiliza download dos dados de execução orçamentária."
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.1.2 Extração dos Instrumentos de Planejamento",
+          "conteudo":[
+            {
+              "tipo":"paragrafo",
+              "texto": "Essa funcionalidade permite ao usuário exportar os dados de situação dos instrumentos de planejamento no formato simples ou agrupado (todos os status na mesma linha)"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.1.3 Extração de Instrumentos Pendentes",
+          "conteudo":[
+            {
+              "tipo": "paragrafo",
+              "texto": "Permite exportar instrumentos com pendência de encaminhamento pela gestão ou pelo Conselho de Saúde"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.1.4 Download de Documento",
+          "conteudo":[
+            {
+              "tipo": "paragrafo",
+              "texto": "Possibilita a extração dos documentos gerados ou inseridos no sistema DGMP"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.2 Menu Superior por Dentro do Sistema",
+          "conteudo":[
+            {
+              "tipo": "paragrafo",
+              "texto": "Ao logar no DGMP, o usuário terá, na página inicial, a visão dos instrumentos de planejamento em saúde dispostos conforme o período da gestão correspondente (de quatro anos). É possível alterar o período visualizado com o clique nas setas laterais no Plano de Saúde, localizadas na parte superior esquerda da tela."
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.2.1 Fale Conosco",
+          "conteudo":[
+            {
+              "tipo":"paragrafo",
+              "texto": "Ainda na tela inicial, na barra superior, há o botão “Fale Conosco”, canal que possibilita ao usuário enviar mensagem para tirar dúvidas sobre o preenchimento,reportar algum erro no sistema ou solicitar mais informações."
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.2.2 Histórico de Ações",
+          "conteudo":[
+            {
+              "tipo":"paragrafo",
+              "texto": "O “Histórico de Ações” traz a visão das ações realizadas no sistema pelos usuários, sejam do perfil Técnico, Gestor ou Conselho de Saúde. Essa funcionalidade permite acompanhar a alimentação do DGMP, consultar data e horário de finalização dos instrumentos, bem como fazer o download dos arquivos correspondentes por meio dos filtros (perfil, ano e componente). O nome e o CPF de quem executou a ação ficam registrados no sistema, e um arquivo com o relatório das ações pode ser exportado no formato de planilha (.csv)."
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.2.3 Identificação",
+          "conteudo":[
+            {
+              "tipo": "paragrafo",
+              "texto": "Na opção de “Identificação”, constam as informações territoriais do ente: os dados da Secretaria de Saúde; as informações da gestão, do Fundo de Saúde, do Conselho de Saúde, dos consórcios de saúde; e dos prazos e das pendências."
             }
           ]
         }
       ]
+    },
+    {
+      "id": "o-plano-de-saude",
+      "titulo": "5. O Plano de Saúde",
+      "conteudo":[]
+    },
+    {
+      "id": "a-programacao-anual-de-saude",
+      "titulo": "6. A Programação Anual de Saúde",
+      "conteudo":[]
+    },
+    {
+      "id": "Relatorio-Detalhado-do-Quadrimestre-Anterior-e-Relatorio-de-Gestao",
+      "titulo": "7. Relatório Detalhado do Quadrimestre Anterior e Relatório de Gestão",
+      "conteudo":[]
+    },
+    {
+      "id": "Apendice-Pactuacao-Interfederativa-de-Indicadores",
+      "titulo": "Apêndice - Pactuação Interfederativa de Indicadores",
+      "conteudo":[]
     }
-    ]
-    }
+
   ]
 }
