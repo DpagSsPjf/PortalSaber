@@ -38,6 +38,13 @@
     "slug": "digisus",
     "description": "Navegando pelo DigiSUS...",
     "role": "SUS"
+  },
+  {
+    "id": 6,
+    "title": "RNDS",
+    "image": "/assets/images/rnds_logo.png",
+    "slug": "rnds",
+    "description": "Explorando a Rede Nacional de Dados em Saúde (RNDS)",
+    "role": "SUS"
   }
-  
 ]

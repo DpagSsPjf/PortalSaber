@@ -301,12 +301,71 @@
       "titulo": "4. Como Acessar o Sistema",
       "conteudo":[
         {
+          "tipo": "paragrafo",
+          "texto": "Ao acessar a URL http://digisusgmp.saude.gov.br, na tela inicial do sistema, são apresentados os seguintes botões: Início (login); Acesso Público (transparência das informações e dados públicos dos instrumentos de planejamento); Biblioteca (boletins informativos, notas técnicas, legislação e últimas notícias); Perguntas Frequentes(histórico do sistema e principais dúvidas); e Painel Sage (Sala de Apoio à Gestão Estratégica)."
+        },
+        {
+          "tipo": "imagem",
+          "src": "",
+          "alt": "Tela inicial do sistema, menu superior"
+        },
+        {
           "tipo": "subtopico",
           "titulo": "4.1 Menu Superior",
           "conteudo":[
             {
               "tipo":"paragrafo",
               "texto": "No botão 'Início', é possível consultar as informações recentes"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela de início do sistema DGMP"
+            },
+            {
+              "tipo":"paragrafo",
+              "texto": "No “Acesso Público”, há oito funcionalidades que permitem ao usuário conhecer a situação dos instrumentos de planejamento, identificar e relacionar as diretrizes do plano nacional de saúde, pesquisar termos constantes nos instrumentos de planejamento, exportar dados da execução orçamentária e extrair instrumentos, bem como fazer download dos documentos gerados e inseridos no sistema, conforme detalhamento a seguir."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Acesso Público”"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Ao clicar no subitem “Nacional”, serão apresentados dados e gráficos da situação dos instrumentos de planejamento no País."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Nacional”"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O subitem “Estadual” apresenta também a situação, por fase e macrorregião de saúde."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Estadual”"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Já o subitem “Diretrizes” permite visualizar as diretrizes nacionais por ciclo de vigência, bem como relacioná-las e quantificá-las aos planos de saúde estaduais e municipais, exportando-as, se desejar."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Diretrizes”"
+            },
+            {
+              "tipo":"paragrafo",
+              "texto": "A funcionalidade deste subitem “Busca Termos” foi criada especialmente para o acompanhamento das políticas públicas por qualquer cidadão, independentemente de ser usuário do sistema. O cidadão pode pesquisar pelos termos de seu interesse. Por exemplo: Saúde Digital."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Busca Termos”"
             }
           ]
         },
@@ -317,6 +376,11 @@
             {
               "tipo":"paragrafo",
               "texto": "Disponibiliza download dos dados de execução orçamentária."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Execução Orçamentária”"
             }
           ]
         },
@@ -327,6 +391,11 @@
             {
               "tipo":"paragrafo",
               "texto": "Essa funcionalidade permite ao usuário exportar os dados de situação dos instrumentos de planejamento no formato simples ou agrupado (todos os status na mesma linha)"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Extração dos Instrumentos de Planejamento”"
             }
           ]
         },
@@ -337,6 +406,11 @@
             {
               "tipo": "paragrafo",
               "texto": "Permite exportar instrumentos com pendência de encaminhamento pela gestão ou pelo Conselho de Saúde"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Extração de Instrumentos Pendentes”"
             }
           ]
         },
@@ -347,6 +421,38 @@
             {
               "tipo": "paragrafo",
               "texto": "Possibilita a extração dos documentos gerados ou inseridos no sistema DGMP"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Download de Documento”"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A Biblioteca Virtual traz os principais documentos e legislação referentes ao planejamento em saúde."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Biblioteca”"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "As “Perguntas Frequentes” são uma forma de consulta rápida às perguntas constantemente recebidas e respondidas pela equipe gestora do sistema."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Perguntas Frequentes”"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O item “Painel Sage” significa a inclusão feita para dar acesso e transparência à ferramenta de planejamento na página da Sala de Apoio à Gestão Estratégica do Ministério da Saúde."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema – “Painel Sage”"
             }
           ]
         },
@@ -357,6 +463,15 @@
             {
               "tipo": "paragrafo",
               "texto": "Ao logar no DGMP, o usuário terá, na página inicial, a visão dos instrumentos de planejamento em saúde dispostos conforme o período da gestão correspondente (de quatro anos). É possível alterar o período visualizado com o clique nas setas laterais no Plano de Saúde, localizadas na parte superior esquerda da tela."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Como o sistema reflete a lógica do ciclo de planejamento, os demais instrumentos disponibilizados acompanham os anos referentes ao Plano de Saúde selecionado, conforme Portaria de Consolidação n.º 1, de 28 de setembro de 2017, artigos 94 a 101."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Visualização interna do DGMP refletindo o processo cíclico do planejamento"
             }
           ]
         },
@@ -367,6 +482,19 @@
             {
               "tipo":"paragrafo",
               "texto": "Ainda na tela inicial, na barra superior, há o botão “Fale Conosco”, canal que possibilita ao usuário enviar mensagem para tirar dúvidas sobre o preenchimento,reportar algum erro no sistema ou solicitar mais informações."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A mensagem pode ser enviada diretamente considerando um assunto específico da lista suspensa (basta selecionar o assunto)"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Visualização da página do “Fale Conosco” para envio de mensagens"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A mensagem é enviada para a referência do Ministério da Saúde, que são os técnicos dos Serviços de Articulação Interfederativa e Participativa (Seinp/Sems/MS), com a opção de colocar o telefone para contato."
             }
           ]
         },
@@ -377,6 +505,15 @@
             {
               "tipo":"paragrafo",
               "texto": "O “Histórico de Ações” traz a visão das ações realizadas no sistema pelos usuários, sejam do perfil Técnico, Gestor ou Conselho de Saúde. Essa funcionalidade permite acompanhar a alimentação do DGMP, consultar data e horário de finalização dos instrumentos, bem como fazer o download dos arquivos correspondentes por meio dos filtros (perfil, ano e componente). O nome e o CPF de quem executou a ação ficam registrados no sistema, e um arquivo com o relatório das ações pode ser exportado no formato de planilha (.csv)."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Conforme o parágrafo único, art. 439, da Portaria de Consolidação n.º 1/2017: “A veracidade das informações registradas e dos documentos inseridos no DGMP é de responsabilidade do gestor local do SUS”."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Visualização do histórico de ações"
             }
           ]
         },
@@ -387,6 +524,65 @@
             {
               "tipo": "paragrafo",
               "texto": "Na opção de “Identificação”, constam as informações territoriais do ente: os dados da Secretaria de Saúde; as informações da gestão, do Fundo de Saúde, do Conselho de Saúde, dos consórcios de saúde; e dos prazos e das pendências."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A respeito dos prazos e das pendências, essa funcionalidade foi desenvolvida a fim de auxiliar os usuários a manterem atualizados os instrumentos de planejamento de acordo com o prazo legal, possibilitando filtrar por fases da gestão ou apenas por instrumentos pendentes, extraindo ou excluindo as informações desejadas."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Visualização do menu superior e da identificação"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Em sua maioria, as informações apresentadas no DGMP são importadas de outros sistemas do Ministério da Saúde, a exemplo do Sistema de Informações sobre Orçamentos Públicos em Saúde (Siops) e do Cadastro Nacional de Estabelecimentos de Saúde (Cnes). Já no caso dos dados demográficos, os dados são provenientes do Instituto Brasileiro de Geografia e Estatística (IBGE). Isso significa que não é possível atualizar ou editar os dados de identificação; caso necessário, isso deverá ser feito diretamente no sistema que serve como fonte. Portanto cabe ao gestor manter os dados atualizados nos sistemas de origem indicados no sistema."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Nas “Informações Territoriais”, são apresentados dados do Tabnet do Departamento de Informação e Informática do Sistema Único de Saúde (DataSUS) e informações sobre a configuração das regiões de saúde, conforme informado à Secretaria-Executiva da Comissão Intergestores Tripartite (SE-CIT)."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela de informações territoriais"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Os dados da Secretaria de Saúde são consultados no Cnes e as informações da gestão, do Fundo de Saúde e do Conselho de Saúde são extraídas diretamente do Siops, sempre de acordo com a última atualização realizada no sistema-fonte."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela de informações da gestão"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela de informações do Fundo de Saúde"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela de informações do Conselho de Saúde"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "As informações de consórcios de saúde também se localizam na barra de Identificação, devendo ser preenchidas pela gestão caso o ente tenha aderido a algum consórcio de saúde. Essas informações são inseridas manualmente pela gestão, visto que não existe atualmente um sistema que disponibilize esses dados. Os consórcios cadastrados neste componente serão apresentados posteriormente no item 5 dos RDQA e RG, relativo à Rede Física Prestadora de Serviços ao SUS."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "penas as informações relativas a consórcios de saúde são inseridas manualmente pela gestão, visto que não existe atualmente um sistema que disponibilize esses dados."
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela de informações de consórcios de saude"
+            },
+            {
+              "tipo": "imagem",
+              "src": "",
+              "alt": "Tela inicial do sistema - mensagem de pendência"
             }
           ]
         }
@@ -395,7 +591,85 @@
     {
       "id": "o-plano-de-saude",
       "titulo": "5. O Plano de Saúde",
-      "conteudo":[]
+      "conteudo":[
+        {
+          "tipo":"paragrafo",
+          "texto": "O Plano de Saúde (PS) norteia a elaboração do planejamento e do orçamento do governo no tocante à saúde, sendo o instrumento a partir do qual são definidas e implementadas todas as iniciativas no âmbito da saúde de cada esfera da gestão do SUS para o período de quatro anos (Brasil; Fundação Oswaldo Cruz, 2016, p. 105).Ele é a base não apenas para a execução, mas também para o acompanhamento e a avaliação da gestão do SUS em todas as áreas da atenção à saúde (Brasil, 2017). O PS é requisito para o recebimento de recursos para cobertura das ações e dos serviços de saúde no âmbito do SUS (Brasil, 1990a, 1994, 2012) e deve ser elaborado e atualizado periodicamente pelo gestor (Brasil, 1990b)."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Visando garantir a previsão orçamentária para sua execução, o PS deve ser elaborado pela gestão e aprovado pelo respectivo Conselho de Saúde antecedendo os prazos de elaboração e entrega do Plano Plurianual (PPA), de acordo com o estabelecido nas constituições ou nas leis orgânicas dos entes federativos (Brasil, 1964)."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "No DGMP, no componente PS, o gestor registrará as informações referentes às Diretrizes deliberadas pelo Conselho de Saúde; em seguida, formulará os Objetivos, as Metas e os Indicadores, complementando a DOMI."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Ao finalizar o preenchimento da DOMI, obrigatoriamente, a gestão deve inserir no sistema os arquivos: Plano de Saúde na íntegra, a resolução do Conselho de Saúde sobre a apreciação do instrumento e a resolução do Conselho de Saúde com a deliberação das diretrizes."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "Vale destacar que os perfis Técnico e Gestor são os responsáveis por inserir, alterar o status informado, fazer algum ajuste textual ou, ainda, arquivar anexos, mediante a inserção de justificativa no próprio sistema. Logo, o perfil Conselho não tem atuação no PS dentro do DGMP."
+        },
+        {
+          "tipo":"paragrafo",
+          "texto": "O preenchimento dessas informações é essencial para que sejam disponibilizados os componentes da PAS, do RDQA e do RG, uma vez que estão interligados e seguem a temporalidade do Plano de Saúde selecionado. Sem preenchimento das DOMI, não é possível prosseguir com o uso do sistema."
+        },
+        {
+          "tipo": "lista",
+          "itens":[
+            {
+              "titulo": "Atenção",
+                "subitens":[
+                  {
+                    "subtitulo":"",
+                    "texto":"O Plano de Saúde deve ser elaborado e aprovado pelo Conselho de Saúde antes do envio das informações para o DGMP."
+                  }
+                ]
+            }
+          ]
+        },
+        {
+          "tipo": "lista",
+          "itens":[
+            {
+              "titulo": "Conforme § 3º, artigo 96, da Portaria de Consolidação n.º 1, de 28 de setembro de 2017, o Plano de Saúde deve conter os seguintes itens",
+              "subitens": [
+                {
+                  "subtitulo": "Análise de situação de saúde"
+                },
+                {
+                  "subtitulo": "Diretrizes, Objetivos, Metas e Indicadores (DOMI)"
+                },
+                {
+                  "subtitulo": "Processo de monitoramento e avaliação"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "5.1 Inserção das Diretrizes do Plano de Saúde",
+          "conteudo":[
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "O preenchimento do componente Plano de Saúde é iniciado com a inserção das diretrizes aprovadas pelo respectivo Conselho de Saúde para a elaboração do Plano de Saúde. Informa-se também a data da última conferência de saúde que antecedeu a elaboração do Plano, em atendimento ao artigo 1º, § 1º, da Lei n.º 8.142, de 28 de dezembro 1990, que dispõe que",
+                  "subitens": [
+                    {
+                      "subtitulo": "Definição de Diretriz",
+                      "texto": "“Expressam ideais de realização e orientam escolhas estratégicas e prioritárias.Devem ser definidas em função das características epidemiológicas, daorganização dos serviços, do sistema de saúde e dos marcos da Política deSaúde” (Brasil, 2016b, p. 104)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "a-programacao-anual-de-saude",

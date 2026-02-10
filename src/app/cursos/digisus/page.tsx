@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { SideBar } from "@/components/SideBar";
+import InteractionButtons from "@/components/InteractionButtons";
 
 // Tipos
 type ConteudoItem = {
@@ -45,13 +46,6 @@ function generateSidebarItems(capitulos: Capitulo[]) {
 // Componente para renderizar diferentes tipos de conteúdo
 const ContentRenderer = ({ item }: { item: ConteudoItem }) => {
   switch (item.tipo) {
-    case "capitulo":
-    case "titulo":
-      return <h2 className="text-2xl font-bold mb-4">{item.texto}</h2>;
-
-    case "subtitulo":
-      return <h3 className="text-xl font-semibold mb-3 mt-6">{item.texto}</h3>;
-
     case "paragrafo":
       return <p className="text-gray-700 leading-relaxed mb-4">{item.texto}</p>;
 
@@ -78,7 +72,7 @@ const ContentRenderer = ({ item }: { item: ConteudoItem }) => {
                 <ul className="ml-4 mt-1 space-y-1 list-disc">
                   {li.subitens.map((sub: any, subIndex: number) => (
                     <li key={subIndex}>
-                      <strong>{sub.subtitulo}:</strong> {sub.texto}
+                      <strong>{sub.subtitulo}</strong> {sub.texto}
                     </li>
                   ))}
                 </ul>
@@ -129,7 +123,7 @@ const getBaseUrl = () => {
 export default async function DocumentacaoDigiSUSPage() {
   const baseUrl = getBaseUrl();
   
-  const response = await fetch(`${baseUrl}/api/cursos/digisus`, {
+  const response = await fetch(`${baseUrl}/cursos/digisus`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 

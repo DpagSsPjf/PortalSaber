@@ -1,0 +1,101 @@
+{
+  "id": "rnds",
+  "titulo": "Manual de Integração - RNDS",
+  "capitulos": [
+    {
+      "id": "Objetivo",
+      "titulo": "1 - Objetivo",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Este documento tem o objetivo de orientar Estados, Municípios, Distrito Federal, Estabelecimentos de Saúde ou Empresas Privadas que fornecem soluções/software na área de saúde a utilizarem os serviços (web services) que foram desenvolvidos para a RNDS – Rede Nacional de Dados em Saúde, fornecendo as orientações técnicas necessárias para a integração dos sistemas/soluções locais com a rede."
+        }
+      ]
+    },
+    {
+      "id": "Contextualização",
+      "titulo": "2 - Contextualização",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A Rede Nacional de Dados em Saúde é uma plataforma nacional de integração de dados em saúde que faz parte do Conecte SUS, um programa do Governo Federal que tem como principal missão materializar a Estratégia de Saúde Digital do Brasil."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A RNDS utiliza computação em nuvem e tecnologias emergentes para criar um repositório de documentos responsável por armazenar informações de saúde dos cidadãos, mantendo a privacidade, integridade e auditabilidade dos dados de maneira acessível e interoperável. Com isso, fornece aos profissionais de saúde acesso à história clínica do paciente, permitindo a transição e a continuidade do cuidado, além de possibilitar aos indivíduos acesso aos seus dados de saúde."
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "Nota:"
+        },
+        {
+          "tipo":"paragrafo",
+          "texto":"Esta primeira entrega do projeto possibilita somente o compartilhamento de resultados de exame da COVID-19 realizados pelos Laboratórios de Análises Clínicas, permitindo a visualização dos resultados pelo cidadão e pelos profissionais de saúde.Com isso, os serviços (web services) permitirão que os Laboratórios de Análises Clínicas compartilhem os resultados de exames de detecção do COVID-19 com a RNDS de forma oportuna e confiável a quem precisa desta informação."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo":"Neste contexto, serão abordados neste documento, os seguintes pontos",
+              "subitens": [
+                {
+                  "subtitulo": "Modelo de Informação"
+                },
+                {
+                  "subtitulo": "Serviços"
+                },
+                {
+                  "subtitulo": "Meio de Integração"
+                },
+                {
+                  "subtitulo": "Segurança"
+                },
+                {
+                  "subtitulo": "Exemplos de consumo dos serviços"
+                },
+                {
+                  "subtitulo": "Validador local de profiles FHIR R4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Modelo de Informação",
+      "titulo": "3 - Modelo de Informação",
+      "conteudo": []
+    },
+    {
+      "id": "Serviços",
+      "titulo": "4 - Serviços",
+      "conteudo": []
+    },
+    {
+      "id": "Meio de Integração",
+      "titulo": "5 - Meio de Integração",
+      "conteudo": []
+    },
+    {
+      "id": "Acesso ao barramento de serviços",
+      "titulo": "6 - Acesso ao barramento de serviços",
+      "conteudo": []
+    },
+    {
+      "id": "Segurança",
+      "titulo": "7 - Segurança",
+      "conteudo": []
+    },
+    {
+      "id": "Exemplos de consumo dos serviços",
+      "titulo": "8 - Exemplos de consumo dos serviços",
+      "conteudo": []
+    },
+    {
+      "id": "Validador local de profiles FHIR R4",
+      "titulo": "9 - Validador local de profiles FHIR R4",
+      "conteudo": []
+    }
+  ]
+}
