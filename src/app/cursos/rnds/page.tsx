@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { SideBar } from "@/components/SideBar";
-import InteractionButtons from "@/components/InteractionButtons";
 
 // Tipos
 type ConteudoItem = {
@@ -140,7 +139,7 @@ export default async function DocumentacaoRNDSPage() {
 
   return (
     <div className="flex flex-1 pt-15">
-      <SideBar title="Capítulos GLPI" items={sidebarItems} />
+      <SideBar title="Capítulos RNDS" items={sidebarItems} />
 
       <article className="flex-1 p-4 md:pl-80 overflow-y-auto">
         {rndsData.capitulos.map((capitulo) => (

@@ -155,12 +155,6 @@ export default async function DocumentacaoGLPIPage() {
             ))}
           </section>
         ))}
-
-        <InteractionButtons
-          tutorialId="glpi"
-          initialLikes={0}
-          initialDislikes={0}
-        />
       </article>
     </div>
   );

@@ -65,12 +65,75 @@
     {
       "id": "Modelo de Informação",
       "titulo": "3 - Modelo de Informação",
-      "conteudo": []
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O Modelo de Informação definido para o envio de resultados de exame da COVID-19 está descrita na figura abaixo (ver original no Portal de Serviços, RNDS)."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Modelo_de_informacao_de_resultados_de_covid-19.png",
+          "alt": "Modelo de Informação de resultados de Covid-19"
+        }
+      ]
     },
     {
       "id": "Serviços",
       "titulo": "4 - Serviços",
-      "conteudo": []
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para garantir a interoperabilidade entre as aplicações de Saúde Digital, em especial Prontuário(s) Eletrônico(s) do Paciente, portais e aplicações (web e mobile), a troca de informações ocorrerá por meio de de serviços (web services) RESTful, desenvolvidos de acordo com o padrão FHIR R4"
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.1 Auxiliares",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "A seguir estão listados os serviços que irão auxiliar no envio da informação principal, o resultado de exame."
+            },
+            {
+              "tipo": "imagem",
+              "src":"/assets/img/rnds/Lista_de_Serviços_Auxiliares.png",
+              "alt":"Lista de Serviços Auxiliares"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.2 Principais",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "A seguir estão listados os serviços deverão ser usados para o envio ou consulta da informação principal, o resultado de exame de COVID-19."
+            },
+            {
+              "tipo": "imagem",
+              "src":"/assets/img/rnds/Lista_de_Serviços_Principais.png",
+              "alt":"Lista de Serviços Principais"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "No diagrama de sequência abaixo (ver original no Portal de Serviços, RNDS) está descrito o fluxo para envio de um documento clínico."
+            },
+            {
+              "tipo": "imagem",
+              "src":"/assets/img/rnds/Diagrama_de_Sequencia_envio_de_documento.png",
+              "alt":"Diagrama de Sequência - Enviar Documento"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "No diagrama de sequência abaixo (ver original no Portal de Serviços, RNDS) está descrito o fluxo de geração do contexto de atendimento para consulta aos documentos clínicos de um paciente."
+            },
+            {
+              "tipo": "imagem",
+              "src":"/assets/img/rnds/Consultar_timeline.png",
+              "alt":"Diagrama de Sequência - Consulta Timeline"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "Meio de Integração",
