@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { SideBar } from "@/components/SideBar";
-import InteractionButtons from "@/components/InteractionButtons";
 
 // Tipos
 type ConteudoItem = {

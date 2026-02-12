@@ -130,7 +130,19 @@
               "tipo": "imagem",
               "src":"/assets/img/rnds/Consultar_timeline.png",
               "alt":"Diagrama de Sequência - Consulta Timeline"
-            }
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Nota",
+                  "subitens": [
+                    {
+                      "subtitulo": "O Conecte SUS Profissional (https://conectesus.saude.gov.br/) é a plataforma desenvolvida pelo Ministério da Saúde para que profissionais de saúde possam acessar as informações de saúde de um determinado paciente a partir de um contexto de atendimento. O contexto de atendimento indica que o paciente está ou passou por atendimento em um estabelecimento de saúde com um profissional de saúde."
+                    }
+                  ]
+                }
+              ]}
           ]
         }
       ]
@@ -138,7 +150,38 @@
     {
       "id": "Meio de Integração",
       "titulo": "5 - Meio de Integração",
-      "conteudo": []
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A integração com a RNDS dar-se-á por meio dos serviços (web services) mencionados acima. Seguindo as boas práticas serão disponibilizados dois ambientes para a integração: homologação e produção."
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "5.1 Ambiente de Homologação",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+             "texto": "O ambiente de homologação tem como finalidade validar a integração, seus parâmetros de entradas, saídas e comportamentos negociais, permitindo a realização de testes antes da efetiva comunicação com o ambiente de produção. O ambiente de homologação é único, ou seja, todos os interessados em realizar o consumo dos serviços (web services) utilizarão o mesmo ambiente. Porém, mesmo usando o mesmo ambiente, as informações trafegadas (incluídas ou consultadas) estarão restritas aos estabelecimentos de saúde (CNES) elencados na etapa de credenciamento (capítulo 6 deste documento)."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Os endereços dos componentes de integração, no ambiente de homologação, são",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ehr-services.hmg.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ehr-auth-hmg.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "Acesso ao barramento de serviços",
