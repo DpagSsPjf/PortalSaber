@@ -25,10 +25,10 @@
   },
   {
     "id": 4,
-    "title": "Sistema Pronto",
+    "title": "Agendamento tira dúvidas",
     "image": "/uploads/images/1754939485632_LogoPronto.jpeg",
-    "slug": "sistema-pronto",
-    "description": "Cadastrar Usuário...",
+    "slug": "tiraDuvidas",
+    "description": "Agendar tira dúvidas via 1Doc para o sistema PRONTO.",
     "role": "Saude"
   },
   {

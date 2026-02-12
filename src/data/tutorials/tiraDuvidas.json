@@ -1,0 +1,125 @@
+{
+  "id": "tira-duvidas",
+  "titulo": "Agendamento tira dúvidas",
+  "capitulos": [
+    {
+      "id": "capitulo-principal",
+      "titulo": "Funcionamento do Agendamento Tira Dúvidas",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O agendamento para o Tira Dúvidas no sistema Pronto é realizado através do sistema “Prefeitura Ágil”"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "ATENÇÃO",
+              "subitens": [
+                {
+                  "subtitulo": "Horario:",
+                  "texto": "Online somente às terças-feiras, das 10h às 12h."
+                },
+                {
+                  "subtitulo": "Regra para agendamento:",
+                  "texto": "Deve ser realizado o agendamento OBRIGATORIAMENTE com pelo menos 4 dias de antecedência."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para realizar o agendamento, siga os passos abaixo:"
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "Passo 1: Acessar o site do Prefeitura Ágil",
+          "conteudo":[
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Acessar_prefeitura_agil.png",
+              "alt": "Acessando o Prefeitura Ágil para agendamento de tira dúvidas"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "Passo 2: Para Primeiro Acesso - Realizar Cadastro",
+          "conteudo":[
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Cadastro_prefeitura_agil.png",
+              "alt": "Imagem ilustrativa do cadastro no Prefeitura Ágil para tira dúvidas"
+            }  
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "Passo 2.1: Realizar o cadastro ou login no sistema Prefeitura Ágil",
+          "conteudo":[
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Cadastrando_prefeitura_agil.png",
+              "alt": "Imagem ilustrativa do processo de cadastro no Prefeitura Ágil para agendamento de tira dúvidas"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "Passo 2.2: Preencher os campos para cadastro no sistema Prefeitura Ágil",
+          "conteudo":[
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Campos_de_cadastro.png",
+              "alt": "Campos necessários para cadastro no Prefeitura Ágil para agendamento de tira dúvidas"
+            }   
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "Passo 3: Acessar o protocolo para agendamento do tira dúvidas e efetuar o login",
+          "conteudo":[
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Acessando_protocolo.png",
+              "alt": "Imagem ilustrativa do acesso ao protocolo no Prefeitura Ágil para tira dúvidas"
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Acessando_protocolo_passo_02.png",
+              "alt": "Imagem ilustrativa do acesso ao protocolo no Prefeitura Ágil para tira dúvidas"
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Acessando_protocolo_passo_03.png",
+              "alt": "Imagem ilustrativa do acesso ao protocolo no Prefeitura Ágil para tira dúvidas"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "Passo 4: Selecionar o assunto e preencher os campos do protocolo para agendamento do tira dúvidas",
+          "conteudo":[
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Selecionar_assunto_protocolo.png",
+              "alt": "Imagem ilustrativa da seleção do assunto no protocolo do Prefeitura Ágil para tira dúvidas"
+            }
+          ]
+        },
+        {
+          "tipo":"subtopico",
+          "titulo":"Passo 5: Preencher os campos do protocolo para agendamento do tira dúvidas",
+          "conteudo":[
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/tiraDuvidas/Preencher_campos_do_protocolo.png",
+              "alt": "Imagem ilustrativa da preenchimento dos campos do protocolo no Prefeitura Ágil para tira dúvidas"
+            }
+          ]
+        }        
+      ]
+    }
+  ]
+}
