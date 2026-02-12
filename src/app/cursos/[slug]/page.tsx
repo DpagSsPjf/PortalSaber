@@ -55,12 +55,6 @@ export default async function CoursePage({
             ))}
           </section>
         ))}
-
-        <InteractionButtons
-          tutorialId={slug}
-          initialLikes={0}
-          initialDislikes={0}
-        />
       </article>
     </div>
   );
