@@ -66,7 +66,7 @@ const ContentRenderer = ({ item }: { item: ConteudoItem }) => {
         <ul className="space-y-2 mb-4">
           {item.itens?.map((li, index) => (
             <li key={index}>
-              <strong>{li.titulo}:</strong> {li.texto}
+              <strong>{li.titulo}</strong> {li.texto}
               {li.subitens && (
                 <ul className="ml-4 mt-1 space-y-1 list-disc">
                   {li.subitens.map((sub: any, subIndex: number) => (
