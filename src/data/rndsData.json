@@ -709,18 +709,192 @@
         {
           "tipo": "paragrafo",
           "texto": "Na página da RNDS no Portal de Serviços do DATASUS há um projeto de exemplo para geração do token utilizando a linguagem Java."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Referências:",
+              "subitens": [
+                {
+                  "subtitulo": "https://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication"
+                },
+                {
+                  "subtitulo": "https://developer.visa.com/pages/working-with-visa-apis/two-way-ssl https://en.wikipedia.org/wiki/Mutual_authentication"
+                },
+                {
+                  "subtitulo": "https://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "id": "Exemplos de consumo dos serviços",
       "titulo": "8 - Exemplos de consumo dos serviços",
-      "conteudo": []
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para facilitar o processo de desenvolvimento da integração por parte das equipes técnicas, está disponível, também na página da RNDS no Portal de Serviços, um arquivo com scripts para a ferramenta Postman. Este arquivo contém exemplos de consumo de todos os serviços descritos neste documento."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para executar estes scripts, a primeira tarefa é realizar a configuração do Certificado Digital usado na etapa de credenciamento (capítulo 6 deste documento). Conforme já mencionado, é com ele que será feita a autenticação (capítulo 7 deste documento). Abaixo, está descrito o passo a passo para realizar esta configuração:"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 1: na tela principal do Postman, abra a tela de configurações."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_1.png",
+          "alt": "Postman - Passo 1"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 2: selecione a aba “Certificates”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_2.png",
+          "alt": "Postman - Passo 2"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 3: selecione a opção para adicionar um novo certificado de cliente."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_3.png",
+          "alt": "Postman - Passo 3"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 4: preencha os campos com os valores."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "",
+              "subitens": [
+                {
+                  "subtitulo": "Host",
+                  "texto": "ehr-auth-hmg.saude.gov.br"
+                },
+                {
+                  "subtitulo": "PFX file",
+                  "texto": "selecione o arquivo no formato “pkcs12” do seu certificado digital;"
+                },
+                {
+                  "subtitulo": "Passphrase",
+                  "texto": "preencha com a chave privada do certificado."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Salve clicando em “Add”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_4.png",
+          "alt": "Postman - Passo 4"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 5: Pronto, o certificado está instalado e será utilizado automaticamente para o host de autenticação do EHR-AUTH. Com isso, os scripts já podem ser executados. Não há necessidade de nenhuma outra configuração."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_5.png",
+          "alt": "Postman - Passo 5"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Referências : https://learning.postman.com/docs/postman/sending-api-requests/certificates/ ."
+        }
+      ]
     },
     {
       "id": "Validador local de profiles FHIR R4",
       "titulo": "9 - Validador local de profiles FHIR R4",
-      "conteudo": []
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Também para apoiar no processo de integração, foi desenvolvida uma aplicação para que as equipes técnicas possam realizar a validação de conformidade dos documentos clínicos gerados localmente com o padrão da adoção FHIR R4 definida pelo Ministério da Saúde."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O objetivo é trazer flexibilidade e agilidade no processo de implementação, por parte das equipes técnicas, do código que irá gerar o JSON com o documento clínico no padrão FHIR R4. O único pré-requisito para rodar esta aplicação é a existência do JAVA 8 instalado na máquina, permitindo que a mesma seja utilizada em diversos sistemas operacionais. O arquivo compactado da aplicação está disponível na página da RNDS no Portal de Serviços do DATASUS. A seguir, será descrito o passo a passo para utilização:"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 1: Após realizar o download do arquivo e descompactá-lo, clicar no arquivo “executar” para iniciar a aplicação."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Executando o aplicativo.png",
+          "alt": "Validador - Passo 1"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Passo 2: Com a aplicação rodando, será possível ver a tela abaixo. Nela, para realizar a validação, será necessário informar 3 parâmetros:",
+              "subitens": [
+                {
+                  "subtitulo": "Local Arquivos Definição:",
+                  "texto": "deverá ser informado o local onde os arquivos de definição da adoção FHIR R4 do Ministério da Saúde foram salvos. Estes arquivos estão disponíveis para download na página da RNDS no Portal de Serviços do DATASUS."
+                },
+                {
+                  "subtitulo": "Arquivo JSON Exemplo:",
+                  "texto": "neste local deverá ser informado o local onde está salvo o arquivo que se deseja validar. A aplicação aceita um arquivo com apenas um JSON ou com um array de JSON’s. Um arquivo válido e preenchido com dados fictícios também está disponível na página da RNDS no Portal de Serviços do DATASUS."
+                },
+                {
+                  "subtitulo": "Arquivo JSON Mensagens:",
+                  "texto": "deverá ser informado o local onde o validador irá salvar as mensagens de erro (inconformidades com os arquivos de definição) ou de sucesso."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Neste ponto, a aplicação está pronta para validar o arquivo. Basta clicar no botão “Validar”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Parametrização do aplicativo.png",
+          "alt": "Validador - Passo 2"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Caso se tenha feito a validação de arquivo que contém inconformidades em relação ao padrão definido pelo Ministério da Saúde, aplicação exibirá uma tela semelhante a esta:"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Arquivo JSON com erros.png",
+          "alt": "Validador - Passo 3"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Ao ter acesso aos erros encontrados no arquivo, as equipes técnicas terão as informações necessárias para corrigir as falhas e produzir um arquivo em conformidade como padrão definido. Assim, ao validar o arquivo será exibida uma tela semelhante a esta:"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Arquivo JSON sem erros.png",
+          "alt": "Validador - Passo 4"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Neste ponto, as equipes técnicas estão aptas a enviar os arquivos para o ambiente de homologação com a garantia de que os mesmos não serão bloqueados por não conformidades com os profiles de documentos. Vale ressaltar que o EHR Services ainda validará referências e outras regras que não competem aos profiles."
+        }
+      ]
     }
   ]
 }
