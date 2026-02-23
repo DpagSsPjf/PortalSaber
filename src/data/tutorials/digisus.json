@@ -306,7 +306,7 @@
         },
         {
           "tipo": "imagem",
-          "src": "",
+          "src": "/assets/img/digisus/Tela_inicial_do_sistema_menu_superior.png",
           "alt": "Tela inicial do sistema, menu superior"
         },
         {
@@ -319,7 +319,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_de_inicio_do_sistema_DGMP.png",
               "alt": "Tela de início do sistema DGMP"
             },
             {
@@ -328,7 +328,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Acesso_Publico.png",
               "alt": "Tela inicial do sistema – “Acesso Público”"
             },
             {
@@ -337,7 +337,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Nacional.png",
               "alt": "Tela inicial do sistema – “Nacional”"
             },
             {
@@ -346,7 +346,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Estadual.png",
               "alt": "Tela inicial do sistema – “Estadual”"
             },
             {
@@ -355,7 +355,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Diretrizes.png",
               "alt": "Tela inicial do sistema – “Diretrizes”"
             },
             {
@@ -364,7 +364,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Busca_Termos.png",
               "alt": "Tela inicial do sistema – “Busca Termos”"
             }
           ]
@@ -379,7 +379,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Execução_Orcamentaria.png",
               "alt": "Tela inicial do sistema – “Execução Orçamentária”"
             }
           ]
@@ -394,7 +394,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Extração_dos_Instrumentos_de_Planejamento.png",
               "alt": "Tela inicial do sistema – “Extração dos Instrumentos de Planejamento”"
             }
           ]
@@ -409,7 +409,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Extração_de_Instrumentos_Pendentes.png",
               "alt": "Tela inicial do sistema – “Extração de Instrumentos Pendentes”"
             }
           ]
@@ -424,7 +424,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Download_de_Documento.png",
               "alt": "Tela inicial do sistema – “Download de Documento”"
             },
             {
@@ -433,7 +433,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Biblioteca.png",
               "alt": "Tela inicial do sistema – “Biblioteca”"
             },
             {
@@ -442,7 +442,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Perguntas_Frequentes.png",
               "alt": "Tela inicial do sistema – “Perguntas Frequentes”"
             },
             {
@@ -451,7 +451,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Painel_Sage.png",
               "alt": "Tela inicial do sistema – “Painel Sage”"
             }
           ]
@@ -470,7 +470,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Visualização interna do DGMP.png",
               "alt": "Visualização interna do DGMP refletindo o processo cíclico do planejamento"
             }
           ]
@@ -489,7 +489,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Visualização da página do Fale Conosco.png",
               "alt": "Visualização da página do “Fale Conosco” para envio de mensagens"
             },
             {
@@ -512,7 +512,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Visualização do histórico de ações.png",
               "alt": "Visualização do histórico de ações"
             }
           ]
@@ -531,7 +531,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Visualização do menu superior e da identificação.png",
               "alt": "Visualização do menu superior e da identificação"
             },
             {
@@ -544,7 +544,7 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_de_informações_territoriais.png",
               "alt": "Tela de informações territoriais"
             },
             {
@@ -553,17 +553,17 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_de_informações_da_gestão.png",
               "alt": "Tela de informações da gestão"
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_de_informações_do_fundo_de_saúde.png",
               "alt": "Tela de informações do Fundo de Saúde"
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_de_informações_do_conselho_de_saúde.png",
               "alt": "Tela de informações do Conselho de Saúde"
             },
             {
@@ -576,12 +576,12 @@
             },
             {
               "tipo": "imagem",
-              "src": "",
-              "alt": "Tela de informações de consórcios de saude"
+              "src": "/assets/img/digisus/Tela_de_informações_de_consórcios_de_saúde.png",
+              "alt": "Tela de informações de consórcios de saúde"
             },
             {
               "tipo": "imagem",
-              "src": "",
+              "src": "/assets/img/digisus/Tela_inicial_do_sistema_Mensagem_de_pendência.png",
               "alt": "Tela inicial do sistema - mensagem de pendência"
             }
           ]
