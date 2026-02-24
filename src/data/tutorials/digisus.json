@@ -41,17 +41,17 @@
           "texto": "O DigiSUS Gestor – Módulo Planejamento (DGMP), criado em 2017 como um dos componentes da estratégia e-Saúde, consolidou-se como uma plataforma digital para registro dos dados do Plano de Saúde (PS) e da Programação Anual de Saúde (PAS), bem como para elaborar e enviar o Relatório Detalhado do Quadrimestre Anterior (RDQA) e o Relatório de Gestão (RG)"
         },
         {
-          "tipo":"lista",
-          "itens":[
+          "tipo": "lista",
+          "itens": [
             {
               "titulo": "Os objetivos do DGMP são",
-              "subitens":[
+              "subitens": [
                 {
                   "subtitulo": "I",
                   "texto": " O aperfeiçoamento da gestão em saúde;"
                 },
                 {
-                "subtitulo": "II",
+                  "subtitulo": "II",
                   "texto": "A facilitação do acompanhamento das políticas de saúde;"
                 },
                 {
@@ -67,12 +67,12 @@
           ]
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "O DGMP foi instituído pela Portaria de Consolidação n.º 1, de 28 de setembro de 2017, nos artigos 435 a 441, em substituição ao Sistema de Apoio ao Relatório de Gestão (SargSUS) e ao Sistema de Pactuação de Indicadores do Pacto pela Saúde (Sispacto). Assim, o DGMP é o sistema oficial do SUS, a partir de 2018, para registro dos instrumentos de planejamento e seus documentos."
         },
         {
-          "tipo":"paragrafo",
-          "texto":"Por ser um sistema em constante evolução, novas funcionalidades serão desenvolvidas e novas versões serão publicadas ao longo do tempo, garantido a melhoria contínua do desempenho, segurança e usabilidade do sistema, além do suporte técnico adequado."
+          "tipo": "paragrafo",
+          "texto": "Por ser um sistema em constante evolução, novas funcionalidades serão desenvolvidas e novas versões serão publicadas ao longo do tempo, garantido a melhoria contínua do desempenho, segurança e usabilidade do sistema, além do suporte técnico adequado."
         }
       ]
     },
@@ -105,7 +105,7 @@
     {
       "id": "Sobre-os-perfis-e-as-formas-de-acesso",
       "titulo": "3. Sobre os perfis e as formas de acesso",
-      "conteudo":[
+      "conteudo": [
         {
           "tipo": "paragrafo",
           "texto": "Sendo um sistema para registro de informações e elaboração dos instrumentos de planejamento – obrigações da gestão do SUS –, o preenchimento do DGMP é restrito aos técnicos e gestores das Secretarias Municipais e Estaduais de Saúde e aos conselheiros de saúde."
@@ -115,7 +115,7 @@
           "itens": [
             {
               "titulo": "O acesso restrito para o preenchimento do sistema possui os seguintes perfis",
-              "subitens":[
+              "subitens": [
                 {
                   "subtitulo": "Gestor Estadual/Municipal",
                   "texto": "perfil específico para o gestor – secretário estadual de saúde e secretário municipal de saúde – ou adjunto, quando houver. Permite a esse usuário a visualização e o preenchimento de todos os campos do sistema. Somente este perfil possui permissão para envio dos relatórios (RDQA e RG) e das metas da Pactuação Interfederativa de Indicadores (2018 a 2021) para apreciação do Conselho de Saúde. O perfil Gestor Estadual homologa a Pactuação Interfederativa dos Indicadores dos municípios."
@@ -134,8 +134,8 @@
         },
         {
           "tipo": "imagem",
-          "src":"/assets/img/digisus/Quadro_de_Perfis_digisus.png",
-          "alt":"Quadro de Perfis do DGMP"
+          "src": "/assets/img/digisus/Quadro_de_Perfis_digisus.png",
+          "alt": "Quadro de Perfis do DGMP"
         },
         {
           "tipo": "paragrafo",
@@ -151,7 +151,7 @@
           "alt": "Tela de cadastro no SCPA"
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Na tela seguinte, deve inserir, seu número do Cadastro de Pessoa Física (CPF) e clicar no botão “Continuar”."
         },
         {
@@ -173,41 +173,41 @@
           "texto": "Em seguida, devem-se validar os dados pessoais, preencher as informações de identificação solicitadas (apenas os dados obrigatórios), informar endereço de e-mail e cadastrar uma senha de acesso."
         },
         {
-          "tipo":"lista",
-          "itens":[
+          "tipo": "lista",
+          "itens": [
             {
-              "titulo":"Atenção",
-              "subitens":[
+              "titulo": "Atenção",
+              "subitens": [
                 {
-                  "subtitulo":"1",
-                  "texto":"O SCPA não permite mais de um cadastro com o mesmo CPF."
+                  "subtitulo": "1",
+                  "texto": "O SCPA não permite mais de um cadastro com o mesmo CPF."
                 },
                 {
-                  "subtitulo":"2",
-                  "texto":"O e-mail cadastrado ficará vinculado ao CPF informado pelo usuário."
+                  "subtitulo": "2",
+                  "texto": "O e-mail cadastrado ficará vinculado ao CPF informado pelo usuário."
                 },
                 {
-                  "subtitulo":"3",
-                  "texto":" Recomenda-se fazer o cadastro utilizando um e-mail pessoal, não institucional."
+                  "subtitulo": "3",
+                  "texto": " Recomenda-se fazer o cadastro utilizando um e-mail pessoal, não institucional."
                 },
                 {
-                  "subtitulo":"4",
-                  "texto":" Este cadastro é único para todos os sistemas do Ministério da Saúde disponíveis no SCPA."
+                  "subtitulo": "4",
+                  "texto": " Este cadastro é único para todos os sistemas do Ministério da Saúde disponíveis no SCPA."
                 }
               ]
             }
           ]
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Cadastro realizado, o usuário deve acessar o link da plataforma do SCPA Usuário (https://acesso.saude.gov.br/login) e solicitar acesso ao DGMP, de acordo com seu perfil."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Observação: caso já possua cadastro no SCPA, o usuário deverá fazer o login no sistema para solicitar acesso ao DGMP."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Em “Outros Sistemas”, o usuário deve pesquisar por “DGMP”, clicar em “Solicitar Acesso”, escolher seu perfil, informar os dados solicitados e clicar novamente em “Solicitar Acesso”"
         },
         {
@@ -215,83 +215,83 @@
           "texto": "A solicitação do usuário permanecerá com o status “pendente” até que seja autorizado pelos responsáveis em sua esfera; os que possuem o perfil Analista (Estadual, Regional, Federal e Sems)."
         },
         {
-          "tipo":"lista",
+          "tipo": "lista",
           "itens": [
             {
               "titulo": "Cada tipo de analista autoriza o acesso de um conjunto de usuários, conforme detalhado a seguir",
               "subitens": [
                 {
-                  "subtitulo":"Analista Federal",
-                  "texto":"perfil exclusivo da equipe responsável pelo DGMP. Autoriza somente os perfis Gestor, Técnico e Analista do Distrito Federal e das Superintendências Estaduais do Ministério da Saúde e seus Serviços de Articulação Interfederativa e Participativa (Sems/Seinp). Permite visualizar os dados registrados por todos os usuários."
+                  "subtitulo": "Analista Federal",
+                  "texto": "perfil exclusivo da equipe responsável pelo DGMP. Autoriza somente os perfis Gestor, Técnico e Analista do Distrito Federal e das Superintendências Estaduais do Ministério da Saúde e seus Serviços de Articulação Interfederativa e Participativa (Sems/Seinp). Permite visualizar os dados registrados por todos os usuários."
                 },
                 {
-                  "subtitulo":"Analista Sems",
-                  "texto":"perfil exclusivo dos Sems/Seinp. Autoriza os perfis Gestor, Técnico e Analista do estado correspondente. Permite somente visualizar os dados registrados pelo estado e por seus municípios."
+                  "subtitulo": "Analista Sems",
+                  "texto": "perfil exclusivo dos Sems/Seinp. Autoriza os perfis Gestor, Técnico e Analista do estado correspondente. Permite somente visualizar os dados registrados pelo estado e por seus municípios."
                 },
                 {
-                  "subtitulo":"Analista Estadual",
-                  "texto":"perfil exclusivo da equipe de planejamento da Secretaria Estadual de Saúde (SES). Autoriza os perfis Gestor e Técnico dos municípios, o perfil do Conselho Municipal e do Conselho Estadual de Saúde, o perfil Analista Regional e o perfil Analista do Conselho de Secretarias Municipais de Saúde (Cosems). Permite somente visualizar os dados registrados pelo estado e por seus municípios."
+                  "subtitulo": "Analista Estadual",
+                  "texto": "perfil exclusivo da equipe de planejamento da Secretaria Estadual de Saúde (SES). Autoriza os perfis Gestor e Técnico dos municípios, o perfil do Conselho Municipal e do Conselho Estadual de Saúde, o perfil Analista Regional e o perfil Analista do Conselho de Secretarias Municipais de Saúde (Cosems). Permite somente visualizar os dados registrados pelo estado e por seus municípios."
                 }
               ]
             }
           ]
         },
         {
-          "tipo":"lista",
-          "itens":[
+          "tipo": "lista",
+          "itens": [
             {
-              "titulo":"O perfil Analista do Distrito Federal autoriza o acesso do perfil Conselho do Distrito Federal",
+              "titulo": "O perfil Analista do Distrito Federal autoriza o acesso do perfil Conselho do Distrito Federal",
               "subitens": [
                 {
-                  "subtitulo":"Analista Regional",
-                  "texto":"perfil exclusivo do técnico indicado pelo gestor estadual, conforme lógica das regiões de saúde. Autoriza os perfis Gestor, Técnico e Conselho de Saúde dos municípios da(s) região(ões) de saúde correspondente(s). Permite somente visualizar os dados registrados pelo conjunto de municípios que compõem a região de saúde correspondente a seu perfil."
+                  "subtitulo": "Analista Regional",
+                  "texto": "perfil exclusivo do técnico indicado pelo gestor estadual, conforme lógica das regiões de saúde. Autoriza os perfis Gestor, Técnico e Conselho de Saúde dos municípios da(s) região(ões) de saúde correspondente(s). Permite somente visualizar os dados registrados pelo conjunto de municípios que compõem a região de saúde correspondente a seu perfil."
                 },
                 {
-                  "subtitulo":"Analista Cosems",
-                  "texto":"perfil exclusivo dos técnicos do Cosems. Este perfil não está habilitado para autorizar acesso de usuários ao sistema. Permite somente visualizar os dados registrados pelos municípios de seu estado."
+                  "subtitulo": "Analista Cosems",
+                  "texto": "perfil exclusivo dos técnicos do Cosems. Este perfil não está habilitado para autorizar acesso de usuários ao sistema. Permite somente visualizar os dados registrados pelos municípios de seu estado."
                 }
               ]
             }
           ]
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Ao perfil Analista Federal é permitida a visualização dos dados cadastrados por todos os usuários dos entes: estados, DF e municípios."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Ao perfil Analista Estadual e ao perfil Analista Sems são permitidas visualizações dos dados cadastrados por seu estado e pelos seus municípios."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Ao perfil Analista Regional é permitida a visualização dos dados cadastrados pelo conjunto de municípios que compõem a região de saúde do perfil."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Ressalta-se que o perfil Analista Cosems não apresenta a funcionalidade para autorizações de acesso de usuários ao sistema. No entanto, esse perfil é importante para o apoio aos gestores municipais de saúde na alimentação do sistema."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "É de responsabilidade dos gestores de saúde, estaduais e municipais, bem como dos Conselhos de Saúde, indicar os responsáveis pelo acesso ao DGMP e informar aos respectivos analistas para autorização do cadastro."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Eventuais atualizações de dados cadastrais ou solicitação de mudança de perfil devem ser feitas pelo usuário."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Os analistas cadastrados para autorizar os acessos no SCPA apenas liberarão mediante as indicações recebidas formalmente pelos gestores e Conselhos de Saúde, em cada esfera correspondente."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Também é de responsabilidade do gestor ou do técnico designado pedir o cancelamento dos perfis em sua esfera de gestão, em caso de desligamento de usuário anteriormente cadastrado."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Da mesma maneira, o Conselho de Saúde deverá solicitar cancelamento de usuário que não esteja mais vinculado ao referido órgão deliberativo."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Uma vez liberado o cadastro, para acessar o DGMP (digisusgmp.saude.gov.br), o usuário deve entrar com o mesmo e-mail e a mesma senha cadastrados no SCPA."
         }
       ]
@@ -299,7 +299,7 @@
     {
       "id": "Como-Acessar-o-Sistema",
       "titulo": "4. Como Acessar o Sistema",
-      "conteudo":[
+      "conteudo": [
         {
           "tipo": "paragrafo",
           "texto": "Ao acessar a URL http://digisusgmp.saude.gov.br, na tela inicial do sistema, são apresentados os seguintes botões: Início (login); Acesso Público (transparência das informações e dados públicos dos instrumentos de planejamento); Biblioteca (boletins informativos, notas técnicas, legislação e últimas notícias); Perguntas Frequentes(histórico do sistema e principais dúvidas); e Painel Sage (Sala de Apoio à Gestão Estratégica)."
@@ -312,9 +312,9 @@
         {
           "tipo": "subtopico",
           "titulo": "4.1 Menu Superior",
-          "conteudo":[
+          "conteudo": [
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "No botão 'Início', é possível consultar as informações recentes"
             },
             {
@@ -323,7 +323,7 @@
               "alt": "Tela de início do sistema DGMP"
             },
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "No “Acesso Público”, há oito funcionalidades que permitem ao usuário conhecer a situação dos instrumentos de planejamento, identificar e relacionar as diretrizes do plano nacional de saúde, pesquisar termos constantes nos instrumentos de planejamento, exportar dados da execução orçamentária e extrair instrumentos, bem como fazer download dos documentos gerados e inseridos no sistema, conforme detalhamento a seguir."
             },
             {
@@ -359,7 +359,7 @@
               "alt": "Tela inicial do sistema – “Diretrizes”"
             },
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "A funcionalidade deste subitem “Busca Termos” foi criada especialmente para o acompanhamento das políticas públicas por qualquer cidadão, independentemente de ser usuário do sistema. O cidadão pode pesquisar pelos termos de seu interesse. Por exemplo: Saúde Digital."
             },
             {
@@ -372,9 +372,9 @@
         {
           "tipo": "subtopico",
           "titulo": "4.1.1 Execução Orçamentária",
-          "conteudo":[
+          "conteudo": [
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "Disponibiliza download dos dados de execução orçamentária."
             },
             {
@@ -387,9 +387,9 @@
         {
           "tipo": "subtopico",
           "titulo": "4.1.2 Extração dos Instrumentos de Planejamento",
-          "conteudo":[
+          "conteudo": [
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "Essa funcionalidade permite ao usuário exportar os dados de situação dos instrumentos de planejamento no formato simples ou agrupado (todos os status na mesma linha)"
             },
             {
@@ -402,7 +402,7 @@
         {
           "tipo": "subtopico",
           "titulo": "4.1.3 Extração de Instrumentos Pendentes",
-          "conteudo":[
+          "conteudo": [
             {
               "tipo": "paragrafo",
               "texto": "Permite exportar instrumentos com pendência de encaminhamento pela gestão ou pelo Conselho de Saúde"
@@ -417,7 +417,7 @@
         {
           "tipo": "subtopico",
           "titulo": "4.1.4 Download de Documento",
-          "conteudo":[
+          "conteudo": [
             {
               "tipo": "paragrafo",
               "texto": "Possibilita a extração dos documentos gerados ou inseridos no sistema DGMP"
@@ -459,7 +459,7 @@
         {
           "tipo": "subtopico",
           "titulo": "4.2 Menu Superior por Dentro do Sistema",
-          "conteudo":[
+          "conteudo": [
             {
               "tipo": "paragrafo",
               "texto": "Ao logar no DGMP, o usuário terá, na página inicial, a visão dos instrumentos de planejamento em saúde dispostos conforme o período da gestão correspondente (de quatro anos). É possível alterar o período visualizado com o clique nas setas laterais no Plano de Saúde, localizadas na parte superior esquerda da tela."
@@ -478,9 +478,9 @@
         {
           "tipo": "subtopico",
           "titulo": "4.2.1 Fale Conosco",
-          "conteudo":[
+          "conteudo": [
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "Ainda na tela inicial, na barra superior, há o botão “Fale Conosco”, canal que possibilita ao usuário enviar mensagem para tirar dúvidas sobre o preenchimento,reportar algum erro no sistema ou solicitar mais informações."
             },
             {
@@ -501,9 +501,9 @@
         {
           "tipo": "subtopico",
           "titulo": "4.2.2 Histórico de Ações",
-          "conteudo":[
+          "conteudo": [
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "O “Histórico de Ações” traz a visão das ações realizadas no sistema pelos usuários, sejam do perfil Técnico, Gestor ou Conselho de Saúde. Essa funcionalidade permite acompanhar a alimentação do DGMP, consultar data e horário de finalização dos instrumentos, bem como fazer o download dos arquivos correspondentes por meio dos filtros (perfil, ano e componente). O nome e o CPF de quem executou a ação ficam registrados no sistema, e um arquivo com o relatório das ações pode ser exportado no formato de planilha (.csv)."
             },
             {
@@ -520,7 +520,7 @@
         {
           "tipo": "subtopico",
           "titulo": "4.2.3 Identificação",
-          "conteudo":[
+          "conteudo": [
             {
               "tipo": "paragrafo",
               "texto": "Na opção de “Identificação”, constam as informações territoriais do ente: os dados da Secretaria de Saúde; as informações da gestão, do Fundo de Saúde, do Conselho de Saúde, dos consórcios de saúde; e dos prazos e das pendências."
@@ -591,48 +591,39 @@
     {
       "id": "o-plano-de-saude",
       "titulo": "5. O Plano de Saúde",
-      "conteudo":[
+      "conteudo": [
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "O Plano de Saúde (PS) norteia a elaboração do planejamento e do orçamento do governo no tocante à saúde, sendo o instrumento a partir do qual são definidas e implementadas todas as iniciativas no âmbito da saúde de cada esfera da gestão do SUS para o período de quatro anos (Brasil; Fundação Oswaldo Cruz, 2016, p. 105).Ele é a base não apenas para a execução, mas também para o acompanhamento e a avaliação da gestão do SUS em todas as áreas da atenção à saúde (Brasil, 2017). O PS é requisito para o recebimento de recursos para cobertura das ações e dos serviços de saúde no âmbito do SUS (Brasil, 1990a, 1994, 2012) e deve ser elaborado e atualizado periodicamente pelo gestor (Brasil, 1990b)."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Visando garantir a previsão orçamentária para sua execução, o PS deve ser elaborado pela gestão e aprovado pelo respectivo Conselho de Saúde antecedendo os prazos de elaboração e entrega do Plano Plurianual (PPA), de acordo com o estabelecido nas constituições ou nas leis orgânicas dos entes federativos (Brasil, 1964)."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "No DGMP, no componente PS, o gestor registrará as informações referentes às Diretrizes deliberadas pelo Conselho de Saúde; em seguida, formulará os Objetivos, as Metas e os Indicadores, complementando a DOMI."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Ao finalizar o preenchimento da DOMI, obrigatoriamente, a gestão deve inserir no sistema os arquivos: Plano de Saúde na íntegra, a resolução do Conselho de Saúde sobre a apreciação do instrumento e a resolução do Conselho de Saúde com a deliberação das diretrizes."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "Vale destacar que os perfis Técnico e Gestor são os responsáveis por inserir, alterar o status informado, fazer algum ajuste textual ou, ainda, arquivar anexos, mediante a inserção de justificativa no próprio sistema. Logo, o perfil Conselho não tem atuação no PS dentro do DGMP."
         },
         {
-          "tipo":"paragrafo",
+          "tipo": "paragrafo",
           "texto": "O preenchimento dessas informações é essencial para que sejam disponibilizados os componentes da PAS, do RDQA e do RG, uma vez que estão interligados e seguem a temporalidade do Plano de Saúde selecionado. Sem preenchimento das DOMI, não é possível prosseguir com o uso do sistema."
         },
         {
-          "tipo": "lista",
-          "itens":[
-            {
-              "titulo": "Atenção",
-                "subitens":[
-                  {
-                    "subtitulo":"",
-                    "texto":"O Plano de Saúde deve ser elaborado e aprovado pelo Conselho de Saúde antes do envio das informações para o DGMP."
-                  }
-                ]
-            }
-          ]
+          "tipo": "aviso",
+          "titulo": "Atenção",
+          "texto": "O Plano de Saúde deve ser elaborado e aprovado pelo Conselho de Saúde antes do envio das informações para o DGMP."
         },
         {
           "tipo": "lista",
-          "itens":[
+          "itens": [
             {
               "titulo": "Conforme § 3º, artigo 96, da Portaria de Consolidação n.º 1, de 28 de setembro de 2017, o Plano de Saúde deve conter os seguintes itens",
               "subitens": [
@@ -652,7 +643,7 @@
         {
           "tipo": "subtopico",
           "titulo": "5.1 Inserção das Diretrizes do Plano de Saúde",
-          "conteudo":[
+          "conteudo": [
             {
               "tipo": "lista",
               "itens": [
@@ -660,12 +651,253 @@
                   "titulo": "O preenchimento do componente Plano de Saúde é iniciado com a inserção das diretrizes aprovadas pelo respectivo Conselho de Saúde para a elaboração do Plano de Saúde. Informa-se também a data da última conferência de saúde que antecedeu a elaboração do Plano, em atendimento ao artigo 1º, § 1º, da Lei n.º 8.142, de 28 de dezembro 1990, que dispõe que",
                   "subitens": [
                     {
-                      "subtitulo": "Definição de Diretriz",
-                      "texto": "“Expressam ideais de realização e orientam escolhas estratégicas e prioritárias.Devem ser definidas em função das características epidemiológicas, daorganização dos serviços, do sistema de saúde e dos marcos da Política deSaúde” (Brasil, 2016b, p. 104)"
+                      "subtitulo": "",
+                      "texto": "Conferência de Saúde reunir-se-á a cada quatro anos com a representação dos vários segmentos sociais, para avaliar a situação de saúde e propor as diretrizes para a formulação da política de saúde nos níveis correspondentes, convocada pelo Poder Executivo ou, extraordinariamente, por esta ou pelo Conselho de Saúde."
                     }
                   ]
                 }
               ]
+            },
+            {
+              "tipo":"observacao",
+              "titulo": "Definição de Diretriz",
+              "texto": "“Expressam ideais de realização e orientam escolhas estratégicas e prioritárias.Devem ser definidas em função das características epidemiológicas, daorganização dos serviços, do sistema de saúde e dos marcos da Política deSaúde” (Brasil, 2016b, p. 104)"
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Cadastro_das_Diretrizes_do_Plano_de_Saúde.png",
+              "alt": "Tela do sistema - cadastro das diretrizes do Plano de Saúde"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O gestor municipal, ao inserir as diretrizes do seu Plano de Saúde, poderá informar se há relação com as diretrizes do Plano Estadual de Saúde e do Plano Nacional de Saúde vigentes. Da mesma forma, o gestor estadual poderá relacionar as diretrizes estaduais às do Plano Nacional de Saúde, caso haja alguma relação."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "As diretrizes inseridas no Plano Estadual de Saúde serão apresentadas na listagem dos municípios do estado em questão."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Relacionamento_das_Diretrizes_do_Plano_de_Saúde.png",
+              "alt": "Tela de inserção e vinculação das diretrizes do Plano de Saúde"
+            },
+            {
+              "tipo": "observacao",
+              "titulo": "ATENÇÃO!",
+              "texto": "Ao copiar (Ctrl + C) algum texto de arquivo do tipo PDF, certifique-se de que os caracteres foram copiados corretamente e que o espaçamento está ajustado. Pode ocorrer mudança ao colar (Ctrl + V)."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Para cada diretriz, deve haver um ou mais objetivos vinculados; e, para cada objetivo cadastrado, devem estar vinculadas uma ou mais metas e indicadores. Considerando que os indicadores têm a função de aferir o alcance da meta, o sistema somente permite o cadastro de um indicador por meta."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A ordem do preenchimento é opcional. É possível começar o cadastro lançando todas as diretrizes do Plano de Saúde e depois cadastrar os objetivos, as metas e os indicadores; ou o usuário pode, também, cadastrar uma diretriz e todos os seus objetivos, metas e indicadores, antes de começar uma nova diretriz."
+            },
+            {
+              "tipo": "aviso",
+              "titulo": "ATENÇÃO!",
+              "texto": "Sempre que necessário, é possível editar ou excluir cada uma das Diretrizes, Objetivos, Metas e Indicadores."
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "5.2 Adicionar o Objetivo à Diretriz",
+          "conteudo": [
+            {
+              "tipo": "observacao",
+              "titulo": "Definição de Objetivo",
+              "texto": "“Expressam resultados desejados, refletindo as situações a serem alteradas pela implementação de estratégias e ações. Declaram e comunicam os aspectos da realidade que serão submetidos a intervenções diretas, permitindo a agregação de um conjunto de iniciativas gestoras de formulação coordenada. Referem-se à declaração 'do que se quer' ao final do período considerado” (Brasil, 2016b,p. 104)."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Para inserir um ou mais objetivos à diretriz, deve-se clicar em “(+) Objetivos” na tela inicial do Plano de Saúde. Uma tela será aberta para inserir o texto do objetivo. Para visualizar todos os objetivos cadastrados, basta clicar no mesmo botão “(+) Objetivos”."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Não é preciso numerar no campo de texto, pois o sistema faz isso automaticamente. Se for o caso, é possível alterar a ordem usando as setas que se encontram ao lado da numeração."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/cadastro dos objetivos do Plano de Saúde.png",
+              "alt": "Tela do sistema - cadastro dos objetivos do Plano de Saúde"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Após inserir o objetivo, clique em “Salvar”. O sistema voltará para a tela inicial de inserção dos objetivos"
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/salvar o preenchimento dos objetivos.png",
+              "alt": "Tela do sistema - salvar o preenchimento dos objetivos"
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Inserção e visualização dos objetivos cadastrados.png",
+              "alt": "Inserção e visualização dos objetivos cadastrados"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "5.3 Adicionar Meta e Indicador ao Objetivo",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Ao clicar em “(+) Meta”, uma nova tela é aberta, para que seja descrito o texto, mais a informação do valor que se pretende alcançar e da unidade de medida. Na previsão da meta, deverá ser informado o valor ano a ano para o quadriênio (opcional). Nessa tela, faz-se a escolha do indicador da meta, que será selecionado em uma lista previamente definida ou cadastrada pelo usuário, da unidade de medida e da linha de base do indicador, que é o valor de referência para fins de comparação. Com exceção da previsão das metas e das informações da linha de base/ano, todos os demais campos são de preenchimento obrigatório."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/cadastro das metas e dos indicadores do Plano de Saúde.png",
+              "alt": "Visualização e cadastro das metas e dos indicadores do Plano de Saúde"
+            },
+            {
+              "tipo": "observacao",
+              "titulo": "Definição de Meta",
+              "texto": "“Expressa a medida de alcance do Objetivo. Um mesmo objetivo pode apresentar mais de uma meta em função da relevância destas para seu alcance, ao mesmo tempo que é recomendável estabelecer metas que expressem os desafios a serem enfrentados” (Brasil, 2016b, p. 104)"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Instruções para preenchimento da meta:",
+                  "subitens": [
+                    {
+                      "subtitulo": "Descrição da meta",
+                      "texto": "sugere-se trabalhar apenas com o texto para descrever a meta. O valor dela, o quanto se quer alcançar, será indicado em campo próprio. Exemplo: “Aumentar a cobertura da ESF”. O quanto se quer alcançar será preenchido no campo “Valor da Meta”: 30%."
+                    },
+                    {
+                      "subtitulo": "Unidade de medida da meta:",
+                      "texto": "será apresentada a lista com as medidas de decimal, moeda, número, percentual, proporção, razão, taxa e índice."
+                    },
+                    {
+                      "subtitulo": "Meta para o período do Plano de Saúde:",
+                      "texto": "o usuário deve indicar o quanto se pretende atingir no quadriênio. No exemplo, foi indicado 30%."
+                    },
+                    {
+                      "subtitulo": "Previsão da meta:",
+                      "texto": "esse campo é de preencimento opcional, Ele tem o objetivo de captar a previsão da meta para cada ano de execução do Plano de Saúde."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "observacao",
+              "titulo": "Definição de Indicador",
+              "texto": "Conjunto de parâmetros que permite identificar, mensurar, acompanhar e comunicar, de forma simples, a evolução de determinado aspecto da intervenção proposta (meta). Devem ser passíveis de apuração periódica, de forma a possibilitar a avaliação da intervenção (Brasil; Fundação Oswaldo Cruz, 2016, p. 104)"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Instruções para preenchimento do indicador:",
+                  "subitens": [
+                    {
+                      "subtitulo": "Selecionar o indicador:",
+                      "texto": "o sistema apresentará uma lista de indicadores cadastrados no DGMP. O usuário poderá selecionar um dos indicadores da lista ou optar por cadastrar novo indicador. Nesse caso, haverá um campo para que o usuário descreva as informações do novo indicador."
+                    },
+                    {
+                      "subtitulo": "Unidade de medida do indicador:",
+                      "texto": "usuário deve escolher uma das unidades de medida da lista."
+                    },
+                    {
+                      "subtitulo": "Linha de base/ano do indicador:",
+                      "texto": "a linha de base é o último resultado aferido para o indicador, caso haja. O registro da linha de base e da data de aferição desse resultado possibilita a comparação do indicador ao longo da execução do Plano de Saúde, partindo de um resultado anterior. A linha de base do indicador será apresentada nos RDQA e no RG, nos quais o gestor apresentará os resultados para o período e poderá fazer análises e considerações."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/preenchimento da meta e do indicador.png",
+              "alt": "Preenchimento da meta e do indicador"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Ao “Salvar” a meta e o indicador, o sistema retornará à tela “Meta/Indicador”. Ao clicar em “Visualizar Resumo da Diretriz”, uma tabela com todas as informações será apresentada para conferência. Para iniciar o registro de uma nova diretriz, deve-se clicar no botão “Voltar para Diretrizes”, conforme indicado anteriormente"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Após o preenchimento das DOMI, é preciso clicar no botão “Avançar” (visualizar) e, em seguida, clicar em “Finalizar”."
+            },
+            {
+              "tipo": "aviso",
+              "titulo": "ATENÇÃO!",
+              "texto": "Sempre que clicar em “Visualizar”, o sistema exibirá o que já foi cadastrado dando uma visão geral do preenchimento do componente. Somente após a visualização, é possível clicar em “Finalizar”."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Visualização e finalização do Plano de Saúde.png",
+              "alt": "Visualização e finalização do Plano de Saúde"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O preenchimento dessas informações é essencial para que sejam disponibilizados os componentes da Programação Anual de Saúde, dos RDQA e do RG, uma vez que estes estão interligados. Ou seja, sem informar as DOMI, não é possível prosseguir no uso do sistema."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Após registrar as DOMI do Plano e finalizar, obrigatoriamente, a gestão também insere no sistema os arquivos correspondentes, ou seja, o Plano de Saúde na íntegra e a deliberação com a resolução do Conselho de Saúde sobre a aprovação do instrumento. A resolução de aprovação das diretrizes do Plano de Saúde apreciadas pelo Conselho de Saúde é um anexo obrigatório."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "É preciso também selecionar o status do Plano: “Aprovado”, “Não Aprovado” ou “Em análise no Conselho de Saúde”."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Validação e inserção de anexos.png",
+              "alt": "Validação e inserção de anexos"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "5.4 Ajuste do Plano de Saúde e Download de Arquivo",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Como dito no início deste componente, a qualquer momento é possível fazer alteração no conteúdo inserido, mudar o status de apreciação do Plano de Saúde ou dos arquivos anexos, mediante inserção de justificativa."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Ajuste e download de arquivo.png",
+              "alt": "Ajuste e download de arquivo"
+            },
+            {
+              "tipo": "observacao",
+              "titulo": "Observação",
+              "texto": "Qualquer alteração no conteúdo do PS deverá ser feita com anuência do respectivo Conselho de Saúde."
+            },
+            {
+              "tipo": "observacao",
+              "titulo": "Lembrete",
+              "texto": "Somente os perfis Gestor e Técnico possuem autorização para finalizar o componente Plano de Saúde e abrir para ajustes."
+            },
+            {
+              "tipo": "paragrafo", 
+              "texto": "Os botões “Gerar PDF” e “Gerar Excel” permitem realizar download somente das DOMI registradas na tela do Plano de Saúde. O download para os demais arquivos é realizado no “Histórico das Ações”."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Gerar PDF e Excel.png",
+              "alt": "Gerar PDF e Excel"
+            },
+            {
+              "tipo": "aviso",
+              "titulo": "ATENÇÃO!",
+              "texto": "Ao solicitar ajuste no Plano de Saúde, todas as metas anualizadas na PAS e queestejam em edição, isto é, não finalizadas, deverão ser reanualizadas."
+            },
+            {
+              "tipo": "observacao",
+              "titulo": "",
+              "texto": "Atenção à nova funcionalidade: com o ajuste do PS, as programações selecionadas também repercutirão essas alterações" 
+            },
+            {
+              "tipo":"imagem",
+              "src": "/assets/img/digisus/Selecionar a PAS que receberá os ajustes.png",
+              "alt": "Selecionar a PAS que receberá os ajustes"
             }
           ]
         }
@@ -674,18 +906,202 @@
     {
       "id": "a-programacao-anual-de-saude",
       "titulo": "6. A Programação Anual de Saúde",
-      "conteudo":[]
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Conforme o artigo 97 da Portaria de Consolidação n.º 1, de 28 de setembro de 2017:",
+              "subitens":[
+                {
+                  "subtitulo": "",
+                  "texto": "A Programação Anual de Saúde (PAS) é o instrumento que operacionaliza as intenções expressas no plano de saúde e tem por objetivo anualizar as metas do plano de saúde, com suas respectivas ações e prever a alocação dos recursos orçamentários a serem executados."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "No DGMP, o gestor deverá anualizar as metas, descrever as ações e registrar a previsão dos recursos orçamentários a serem executados. Ao finalizar essa parte, será pedido que o gestor anexe a PAS na íntegra. Nesse contexto, é necessário que o gestor já esteja com a PAS elaborada e encaminhada para apreciação do Conselho de Saúde. Cabe ressaltar, portanto, que no DGMP registram-se apenas as informações solicitadas. Ou seja, não é elaborada nem encaminhada para apreciação do Conselho de Saúde por meio do sistema."
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "ATENÇÃO!",
+          "texto": "Inserir as informações do Plano de Saúde no sistema é precondição para prosseguir no registro da PAS."
+        },
+        {
+          "tipo": "aviso",
+          "texto": "O encaminhamento da PAS do PS ao respectivo Conselho de Saúde deverá ser feito antes do envio da LDO do exercício correspondente à casa legislativa conforme § 2°, artigo 36, da Lei Complementar n.° 141/2012."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Atenção:",
+              "subitens": [
+                {
+                  "subtitulo": "União - 15 de abril."
+                },
+                {
+                  "subtitulo": "Estados - observar o prazo estabelicido pela respectivas constituições estaduais."
+                },
+                {
+                  "subtitulo": "DF e Municípios - observar as respectivas leis orgânicas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "As Programações Anuais de Saúde estarão liberadas automaticamente para edição, desde que finalizado o Plano de Saúde. A PAS apresentará as DOMI preenchidas conforme o PS."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Primeiramente, será necessário escolher a diretriz e o objetivo e, depois, filtrar as metas relacionadas a eles. A meta a ser anualizada aparecerá como Pendente , em vermelho."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Programção Anual de Saúde.png",
+          "alt": "Tela inicial da Programação Anual de Saúde"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Ao clicar na meta a ser anualizada, abre-se uma tela para confirmação do valor da meta para o ano da PAS em questão. Em seguida, o usuário deve inserir uma ou mais ações para cada meta."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Além da anualização da meta e da descrição das ações, é possível vinculá-la a uma ou mais subfunções orçamentárias (Portaria Mpog n.º 42, de 14 de abril de 1999), tais como as apresentadas no Siops, por ocasião do registro da execução orçamentária. O sistema não fará a identificação de valores por cada meta ou ação, ainda que haja municípios e estados que consigam informar esse nível de detalhes."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/inserção de ações e subfunções.png",
+          "alt": "Anualização de meta e inserção de ações e subfunções."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A lógica do sistema está em identificar, na PAS, a relação de metas com as subfunções orçamentárias, para que nos RDQA e no RG sejam feitas análises do que se previu em termos de metas e ações e os recursos executados e informados no Siops, quando da prestação de contas. Com a vinculação nas metas, poderá ser feito o monitoramento do seu alcance (do impacto na saúde), de acordo com a subfunção orçamentária. E, caso tenha ocorrido a frustração de receitas impedindo o alcance da meta ou a realização de alguma ação, por exemplo, o gestor poderá realizar comentários no campo análises e considerações."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "No DGMP, deve ser registrada a previsão considerando as subfunções orçamentárias específicas para a área da saúde, conforme previsto na Portaria Mpog n.º 42, de 14 de abril de 1999, e destacado no anexo da referida Portaria."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/subfunções orçamentárias da saúde.png",
+          "alt": "Subfunções orçamentárias da saúde"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Além das subfunções orçamentárias específicas da área da saúde, o DGMP disponibiliza outras duas: Administração Geral e Informações Complementares."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Administração Geral concentra ações de gestão e manutenção de órgãos do governo. Nessa subfunção, o ente deverá lançar o somatório das despesas constantes da subfunção administrativa: Planejamento e Orçamento, Administração Geral, Administração Financeira, Controle Interno, Tecnologia da Informação, Formação de Recursos Humanos e Comunicação Social."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "São representadas por todas as subfunções do grupo 100 não vinculadas diretamente à saúde: 121 – Planejamento e Orçamento; 122 – Administração Geral; 123 – Administração Financeira; 124 – Controle Interno; 125 – Normatização e Fiscalização; 126 – Tecnologia da Informação; 127 – Ordenamento Territorial; 128 – Formação de Recursos Humanos; 129 – Administração de Receitas; 130 – Administração de Concessões; 131 – Comunicação Social."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para qualquer ação que não se enquadre na relação de subfunções apresentadas, utiliza-se a opção “Informações Complementares”. O ente deverá lançar, nessa tabela, o somatório de todas as despesas das subfunções que não sejam vinculadas à função administrativa e às subfunções vinculadas (Previdência Básica, Previdência do Regime Estatutário, Previdência Complementar, Desenvolvimento Científico, Desenvolvimento Tecnológico e Engenharia, Difusão do Conhecimento Científico e Tecnológico, Refinanciamento da Dívida Interna, Refinanciamento da Dívida Externa, Serviço da Dívida Interna, Serviço da Dívida Externa, e outras)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Representada por todas as outras subfunções não vinculadas diretamente à saúde, são exemplos: 841 – Refinanciamento da Dívida Interna; 842 – Refinanciamento da Dívida Externa; 843 – Serviço da Dívida Interna; 844 – Serviço da Dívida Externa; 845 – Outras Transferências (I) (A); 846 – Outros Encargos Especiais; 271 – Previdência Básica; 272 – Previdência do Regime Estatutário; 273 – Previdência Complementar; 274 – Previdência Especial."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A segunda etapa do preenchimento do componente Programação Anual de Saúde é o lançamento das informações orçamentárias, conforme dados informados pela LOA correspondente. O gestor deverá registrar no DGMP as informações de previsão de receitas por fonte de recursos, categoria econômica e subfunção orçamentária."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "É necessário clicar em cada fonte de recursos para inserir os valores. Ao concluir essa etapa, cada meta aparecerá como Anualizada , em verde"
+        },
+        {
+          "tipo": "imagem",
+          "src":"/assets/img/digisus/Inserção de informações da programação orçamentaria.png",
+          "alt": "Inserção de informações da programação orçamentária"
+        },
+        {
+          "tipo": "imagem",
+          "src":"/assets/img/digisus/Visualização da PAS.png",
+          "alt": "Visualização da PAS"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para finalizar, é preciso clicar em “Visualizar” e, em seguida, em “Finalizar”. Esse processo de finalização se dá com a inserção do arquivo da PAS na íntegra e com a informação do status de apreciação pelo respectivo Conselho de Saúde"
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "ATENÇÃO!",
+          "texto": "Módulo Planejamento permite a inserção de arquivos de até 20mb de tamanho. Arquivos de tamanho maior devem ser compactados."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Finalização da PAS.png",
+          "alt": "Finalização da PAS - inserção de arquivo e status de apreciação"
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "6.1 Ajuste da Programação Anual de Saúde e Download de Arquivo",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "A ação de ajuste da Programação Anual de Saúde segue o mesmo procedimento de ajuste do PS. Logo, deve ser inserida justificativa, caso seja necessário fazer alguma alteração textual ou de arquivos anexos."
+            },
+            {
+              "tipo":"paragrafo",
+              "texto": "Cabe destacar que, neste componente da PAS, não é possível alterar as DOMI, de modo que o ajuste deve ser feito no componente do PS, e a PAS deve estar em aberto (status “Em Elaboração” ou “Retornado para Ajuste”) para receber os ajustes feitos no Plano de Saúde."
+            },
+            {
+              "tipo":"paragrafo",
+              "texto": "Ressalte-se que a realização de ajuste no Plano de Saúde implicará a reanualização de todas as metas constantes das PAS que não estiverem finalizadas, conforme já destacado."
+            },
+            {
+              "tipo":"aviso",
+              "titulo": "Observação",
+              "texto": "Qualquer alteração no conteúdo da PAS deverá ser feita com anuência do respectivo Conselho de Saúde."
+            },
+            {
+              "tipo":"aviso",
+              "titulo": "ATENÇÃO!",
+              "texto": "Quando houver alteração no conteúdo da PAS e for preciso ajustá-la, certifique-se de que os relatórios (RDQA e o RG) estejam como status “Em Elaboração”, para receberem a referida alteração."
+            },
+            {
+              "tipo":"paragrafo",
+              "texto": "Ressalte-se que a realização de ajuste no Plano de Saúde implicará a reanualização de todas as metas constantes das PAS que não estiverem finalizadas, conforme já destacado."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Ajuste da PAS.png",
+              "alt": "Ajuste da PAS"
+            },
+            {
+              "tipo": "aviso",
+              "titulo": "",
+              "texto": "Caso uma meta estabelecida no Plano de Saúde não seja prevista para todas as PAS ao longo do ciclo de planejamento, o gestor poderá desabilitá-la no campo “Meta não programada para o exercício”."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/digisus/Meta programada da PAS.png",
+              "alt": "Meta programada da PAS"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "Relatorio-Detalhado-do-Quadrimestre-Anterior-e-Relatorio-de-Gestao",
       "titulo": "7. Relatório Detalhado do Quadrimestre Anterior e Relatório de Gestão",
-      "conteudo":[]
+      "conteudo": []
     },
     {
       "id": "Apendice-Pactuacao-Interfederativa-de-Indicadores",
       "titulo": "Apêndice - Pactuação Interfederativa de Indicadores",
-      "conteudo":[]
+      "conteudo": []
     }
-
   ]
 }

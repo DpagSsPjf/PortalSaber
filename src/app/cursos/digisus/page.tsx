@@ -48,6 +48,37 @@ const ContentRenderer = ({ item }: { item: ConteudoItem }) => {
     case "paragrafo":
       return <p className="text-gray-700 leading-relaxed mb-4">{item.texto}</p>;
 
+    case "aviso":
+    case "observacao": {
+      const title = item.titulo || item.texto || "";
+      const texto = item.texto && item.titulo ? item.texto : undefined;
+      const itens = Array.isArray(item.itens)
+        ? item.itens
+        : item.itens
+          ? [String(item.itens)]
+          : undefined;
+
+      return (
+        <div className="my-6 rounded-lg overflow-hidden shadow-sm bg-white">
+          <div className="px-4 py-3 text-white bg-linear-to-b from-pink-500 to-pink-600 rounded-tr-3xl">
+            <h3 className="m-0 text-base font-bold">{title}</h3>
+          </div>
+
+          <div className="px-4 py-4 text-sm text-gray-800">
+            {texto && <p className="mb-3">{texto}</p>}
+
+            {itens && itens.length > 0 && (
+              <ul className="list-disc pl-5 space-y-1">
+                {itens.map((it, i) => (
+                  <li key={i}>{it}</li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </div>
+      );
+    }
+
     case "imagem":
       return (
         <div className="my-4">
