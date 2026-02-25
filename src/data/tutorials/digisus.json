@@ -659,7 +659,7 @@
               ]
             },
             {
-              "tipo":"observacao",
+              "tipo": "observacao",
               "titulo": "Definição de Diretriz",
               "texto": "“Expressam ideais de realização e orientam escolhas estratégicas e prioritárias.Devem ser definidas em função das características epidemiológicas, daorganização dos serviços, do sistema de saúde e dos marcos da Política deSaúde” (Brasil, 2016b, p. 104)"
             },
@@ -876,7 +876,7 @@
               "texto": "Somente os perfis Gestor e Técnico possuem autorização para finalizar o componente Plano de Saúde e abrir para ajustes."
             },
             {
-              "tipo": "paragrafo", 
+              "tipo": "paragrafo",
               "texto": "Os botões “Gerar PDF” e “Gerar Excel” permitem realizar download somente das DOMI registradas na tela do Plano de Saúde. O download para os demais arquivos é realizado no “Histórico das Ações”."
             },
             {
@@ -892,10 +892,10 @@
             {
               "tipo": "observacao",
               "titulo": "",
-              "texto": "Atenção à nova funcionalidade: com o ajuste do PS, as programações selecionadas também repercutirão essas alterações" 
+              "texto": "Atenção à nova funcionalidade: com o ajuste do PS, as programações selecionadas também repercutirão essas alterações"
             },
             {
-              "tipo":"imagem",
+              "tipo": "imagem",
               "src": "/assets/img/digisus/Selecionar a PAS que receberá os ajustes.png",
               "alt": "Selecionar a PAS que receberá os ajustes"
             }
@@ -912,7 +912,7 @@
           "itens": [
             {
               "titulo": "Conforme o artigo 97 da Portaria de Consolidação n.º 1, de 28 de setembro de 2017:",
-              "subitens":[
+              "subitens": [
                 {
                   "subtitulo": "",
                   "texto": "A Programação Anual de Saúde (PAS) é o instrumento que operacionaliza as intenções expressas no plano de saúde e tem por objetivo anualizar as metas do plano de saúde, com suas respectivas ações e prever a alocação dos recursos orçamentários a serem executados."
@@ -1022,12 +1022,12 @@
         },
         {
           "tipo": "imagem",
-          "src":"/assets/img/digisus/Inserção de informações da programação orçamentaria.png",
+          "src": "/assets/img/digisus/Inserção de informações da programação orçamentaria.png",
           "alt": "Inserção de informações da programação orçamentária"
         },
         {
           "tipo": "imagem",
-          "src":"/assets/img/digisus/Visualização da PAS.png",
+          "src": "/assets/img/digisus/Visualização da PAS.png",
           "alt": "Visualização da PAS"
         },
         {
@@ -1053,25 +1053,25 @@
               "texto": "A ação de ajuste da Programação Anual de Saúde segue o mesmo procedimento de ajuste do PS. Logo, deve ser inserida justificativa, caso seja necessário fazer alguma alteração textual ou de arquivos anexos."
             },
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "Cabe destacar que, neste componente da PAS, não é possível alterar as DOMI, de modo que o ajuste deve ser feito no componente do PS, e a PAS deve estar em aberto (status “Em Elaboração” ou “Retornado para Ajuste”) para receber os ajustes feitos no Plano de Saúde."
             },
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "Ressalte-se que a realização de ajuste no Plano de Saúde implicará a reanualização de todas as metas constantes das PAS que não estiverem finalizadas, conforme já destacado."
             },
             {
-              "tipo":"aviso",
+              "tipo": "aviso",
               "titulo": "Observação",
               "texto": "Qualquer alteração no conteúdo da PAS deverá ser feita com anuência do respectivo Conselho de Saúde."
             },
             {
-              "tipo":"aviso",
+              "tipo": "aviso",
               "titulo": "ATENÇÃO!",
               "texto": "Quando houver alteração no conteúdo da PAS e for preciso ajustá-la, certifique-se de que os relatórios (RDQA e o RG) estejam como status “Em Elaboração”, para receberem a referida alteração."
             },
             {
-              "tipo":"paragrafo",
+              "tipo": "paragrafo",
               "texto": "Ressalte-se que a realização de ajuste no Plano de Saúde implicará a reanualização de todas as metas constantes das PAS que não estiverem finalizadas, conforme já destacado."
             },
             {
@@ -1096,12 +1096,440 @@
     {
       "id": "Relatorio-Detalhado-do-Quadrimestre-Anterior-e-Relatorio-de-Gestao",
       "titulo": "7. Relatório Detalhado do Quadrimestre Anterior e Relatório de Gestão",
-      "conteudo": []
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O DGMP é o sistema obrigatório para a elaboração e o envio do RDQA e do RG e, consequentemente, para recomendações, no caso do RDQA, e para a apreciação, no caso do RG, pelos Conselhos de Saúde. Nesse sentido, foi criado para qualificar a elaboração desses instrumentos de monitoramento e comprovação de gastos, respectivamente."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "m atendimento à Lei Complementar (LC) n.º 141, de 13 de janeiro 2012, e às recomendações dos órgãos de controle quanto à melhoria no processo de monitoramento da execução de Planos de Saúde pelas áreas finalísticas do Ministério da Saúde, os componentes RDQA e RG buscaram incorporar e aprimorar funcionalidades do antigo SargSUS."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Cujo objetivos específicos são",
+              "subitens": [
+                {
+                  "subtitulo": "",
+                  "texto": "Inserir os resultados alcançados por meta anualizada na PAS."
+                },
+                {
+                  "subtitulo": "",
+                  "texto": "Possibilitar, aos Conselhos de Saúde, uma avaliação qualificada sobre os RDQA e o RG, com base na disponibilização de série histórica de indicadores."
+                },
+                {
+                  "subtitulo": "",
+                  "texto": "Dar transparência à execução das ações programadas, bem como à alocação dos recursos financeiros."
+                },
+                {
+                  "subtitulo": "",
+                  "texto": "Permitir o monitoramento da execução física, orçamentária e financeira nos RDQA e no RG"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "observacao",
+          "titulo": "Os órgãos gestores de saúde da União, dos estados, do Distrito Federal e dos municípios darão ampla divulgação, inclusive em meios eletrônicos de acesso público, das prestações de contas periódicas da área da saúde, para consulta e apreciação dos cidadãos e de instituições da sociedade, com ênfase no que se refere a:",
+          "itens": [
+            "I – comprovação do cumprimento do disposto nesta Lei Complementar;",
+            "II – Relatório de Gestão do SUS;",
+            "III - avaliação do Conselho de Saúde sobre a gestão do SUS no âmbito do respectivo ente da Federação.",
+            "Parágrafo único. A transparência e a visibilidade serão asseguradas mediante incentivo à participação popular e realização de audiências públicas, durante o processo de elaboração e discussão do plano de saúde. (Brasil, 2012, art. 31)"
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O RDQA objetiva o monitoramento das metas e das ações da PAS e deve ser apresentado até o final dos meses de maio (1º RDQA), setembro (2º RDQA) e fevereiro (3º RDQA), na Casa Legislativa da esfera correspondente, conforme § 5º do artigo 36 da LC n.º 141/2012."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Além disso, o RDQA deve ser enviado para avaliação no Conselho de Saúde, conforme o artigo 31 da LC n.º 141/2012."
+        },
+        {
+          "tipo": "observacao",
+          "titulo": " ",
+          "texto": "Os Conselhos de Saúde, no âmbito de suas atribuições, avaliarão a cada quadrimestre o relatório consolidado do resultado da execução orçamentária e financeira no âmbito da saúde e o relatório do gestor da saúde sobre a repercussão da execução desta Lei Complementar nas condições de saúde e na qualidade dos serviços de saúde das populações respectivas e encaminhará ao Chefe do Poder Executivo do respectivo ente da Federação as indicações para que sejam adotadas as medidas corretivas necessárias. (Brasil, 2012, art. 41)."
+        },
+        {
+          "tipo": "observacao",
+          "titulo": "",
+          "texto": "A elaboração do RDQA e o envio para avaliação do Conselho de Saúde devem ser feitos no DGMP, conforme inciso II, artigo 436, da Portaria de Consolidação n.º 1/2017."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O DGMP permite a elaboração dos RDQA, mas vale lembrar novamente: o envio via sistema ao Conselho de Saúde não substitui a apresentação e as discussões presenciais nesse órgão deliberativo."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Já o RG deve ser apresentado ao respectivo Conselho de Saúde até o dia 30 de março do ano seguinte ao da execução financeira, cabendo ao Conselho emitir parecer conclusivo sobre o cumprimento ou não das normas estatuídas"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Como dito anteriormente, os RDQA e o RG somente serão liberados para elaboração após o preenchimento das informações do Plano de Saúde da Programação Anual de Saúde correspondente, abrindo para preenchimento na temporalidade devida. O sistema apresenta a estrutura de relatório aprovada pelo Conselho Nacional de Saúde (Res. CNS n.º 459, de 10 de outubro de 2012) tanto para os relatórios quadrimestrais quanto para o anual, com suas devidas especificidades. O menu lateral dos RDQA e do RG é retrátil ao clique."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A maior parte das informações dos relatórios são importadas de sistemas nacionais de informação, cuja data da consulta e a fonte vêm informadas em cada item."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Base de informação do DGMP.png",
+          "alt": "Base de informação do DGMP"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Ao finalizar o relatório, é possível baixar o arquivo com o documento formatado. Com exceção dos itens 1 e 2, os demais são de preenchimento obrigatório. Isto é, os campos de “Análises e Considerações” existentes em cada um dos itens do sumário precisam receber comentários dos gestores."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Além da inserção de análises e considerações, em cada um dos itens dos RDQA e do RG será possível a inclusão de imagens e tabelas, entre outros recursos, caso seja de interesse da gestão. Por exemplo, agregar mais informações das bases de dados locais, uma vez que o DGMP apenas apresenta informações das bases nacionais. Cabe destacar que, sempre que possível, as informações são apresentadas com a série histórica dos últimos cinco anos, se disponíveis."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O item 1, de identificação do ente, cujas informações estão previamente preenchidas no menu superior do sistema, não necessita ser preenchido."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Visão menu.png",
+          "alt": "Tela inicial do RDQA e do RG - visão do menu"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Como o sistema produz um relatório físico ao final, o item “2. Introdução” tem por objetivo receber as considerações gerais que os gestores querem destacar no relatório."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "É necessário gravar cada um dos itens ao final."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Inserção de introdução ao relatorio.png",
+          "alt": "Tela para inserção de introdução ao relatório"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Os itens 3 e 4 trazem “Dados Demográficos e de Morbimortalidade” e da “Dados da Produção de Serviços no SUS”, respectivamente. Sempre que possível, o sistema apresenta os dados dos últimos cinco anos disponíveis para facilitar o processo de monitoramento e avaliação."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Itens 3 e 4 do RDQA e do RG.png",
+          "alt": "Telas de dados demográficos e de morbimortalidade e da produção de serviços no SUS do RDQA e do RG"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Item 2 com serie historica.png",
+          "alt": "Tela do item 2 com série histórica dos dados"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Novamente, todos os dados advêm das bases nacionais e respeitam o período de seu fechamento. A funcionalidade de “Análise e Considerações” em cada um dos itens do RDQA e do RG deve ser usada pelo gestor para complementar ou informar dados mais atuais, caso seja necessário."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O item 5 apresenta as informações da “Rede Física Prestadora de Serviços ao SUS” e as informações sobre os consórcios vigentes preenchidas no menu “Identificação” do sistema."
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "",
+          "texto": "As informações adicionais acerca dos vínculos cadastrados no Cnes estão disponíveis nas orientações, no botão localizado na parte superior do referido item."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Item 5 do RDQA e do RG.png",
+          "alt": "Tela do item e do subitem 5 do RDQA e do RG",
+          "width": "400px"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O item 6 traz os quantitativos dos “Profissionais de Saúde Trabalhando no SUS”, a partir dos postos de trabalho ocupados, por tipo de administração do estabelecimento e forma de contratação, cujos dados são oriundos da base do Sistema do Cadastro Nacional de Estabelecimentos de Saúde (SCNES), sendo possível dar destaque a determinado profissional de acordo com Classificação Brasileira de Ocupações (CBO)."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Item 6 do RDQA e do RG.png",
+          "alt": "Tela do item e do subitem 6 do RDQA e do RG"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O item 7 apresenta as informações previamente inseridas nos componentes do Plano de Saúde e da Programação Anual de Saúde. Nesse item, o gestor deve informar os resultados alcançados para as metas previstas, e o sistema fará o cálculo automático do percentual atingido."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "As informações podem ser salvas parcialmente a qualquer momento; no entanto, o campo “Análises e Considerações” estará automaticamente habilitado para edição após preenchimento de todas as informações obrigatórias."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nos relatórios quadrimestrais, é necessária a inserção dos resultados parciais. Caso a meta não seja passível de apuração quadrimestral, é possível desabilitar o campo ao selecionar a opção sem apuração."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Item 7 do RDQA e do RG.png",
+          "alt": "Tela do item e do subitem 7 do RDQA e do RG"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Inserção dos resultados alcançados.png",
+          "alt": "Tela da PAS para inserção dos resultados alcançados"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "As DOMI e as metas anualizadas serão trazidas da Programação Anual de Saúde, sem possibilidade de edição nos RDQA e no RG."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O item 8 traz as metas cadastradas no componente da Pactuação Interfederativa de Indicadores, cabendo ao usuário o preenchimento dos resultados alcançados. No RDQA, poderá ser informado o resultado apenas das metas passíveis de apuração no período; no RG, deverão ser informados os resultados de todas as metas. A tela dos municípios para registro do alcance de metas será habilitada somente após a homologação da pactuação por parte da SES, e a tela dos estados e do DF será habilitada apenas após aprovação da pactuação por parte dos respectivos Conselhos de Saúde."
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "ATENÇÃO!",
+          "texto": "O item 8 está disponível para o ciclo municipal de 2018 a 2021 e para o ciclo estadual de 2016 a 2019 e 2020 a 2023."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O cálculo percentual de alcance da meta deve ser realizado conforme o comportamento que se pretende. Para determinadas metas, desejam-se resultados semelhantes ou maiores que o valor pactuado. Para outras, desejam-se resultados semelhantes ou menores que o valor pactuado."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Veja como exemplo o indicador 22 – Número de ciclos que atingiram mínimo de 80% de cobertura de imóveis visitados para controle vetorial da dengue. Determinado ente define como meta que pretende alcançar 80% de visitas nos seis ciclos. Ao final do período, apurou que de fato conseguiu visitar no mínimo 80% dos imóveis nos seis ciclos. O percentual de alcance da meta foi de 100%."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Supondo que, ao final do período, foi possível visitar no mínimo 80% dos imóveis em quatro ciclos. Dividindo-se o número de ciclos com percentual satisfatório de visitas a imóveis (4) pelo número total de ciclos (6) e multiplicando-se o resultado por 100, encontra-se o percentual de alcance da meta: 4/6 × 100 = 66,67%."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Indicadores para inserção dos resultados alcançados.png",
+          "alt": "Tela da Pactuação Interfederativa de Indicadores para inserção dos resultados alcançados"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O item 9 apresenta os formulários com as informações de “Execução Orçamentária e Financeira” importadas do Siops, sistema de alimentação obrigatória, durante a elaboração dos RDQA e do RG. Ou seja, não há lançamento de informações de execução orçamentária no DGMP, apenas os formulários previamente preenchidos e transmitidos via Siops."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Além dos formulários tradicionalmente apresentados no SargSUS, o DGMP traz o subitem 9.1 com a “Execução da programação por fonte, subfunção e natureza da despesa” – também migrado do Siops. 9.2 Indicadores financeiros. 9.3 Relatório Resumido da Execução Orçamentária (RREO)"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "No item 9.4 – “Execução orçamentária e financeira de recursos federais transferidos fundo a fundo, segundo bloco de financiamento e programa de trabalho” –, serão apresentados os valores dos recursos federais repassados fundo a fundo para estados, DF e municípios por programa de trabalho, conforme o ano de referência do RG. O DGMP importará os dados da base do Fundo Nacional de Saúde(FNS) e será disponibilizado ao gestor um campo para registro do valor executado."
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "ATENÇÃO!",
+          "texto": "A Tabela 9.4 – Execução Orçamentária e Financeira de Recursos Federais Transferidos Fundo a Fundo, segundo bloco de financiamento e programa detrabalho – somente é apresentada no RG, não sendo objeto de apuração dosRDQA."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/execução orçamentária e financeira de recursos federais.png",
+          "alt": "Tela com a execução orçamentária e financeira de recursos federais transferidos fundo a fundo, por bloco de financiamento e programa de trabalho"
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "O item 10 apresenta as informações de “Auditorias”, conforme previsto na LC n° 141/2012, artigo 36:",
+          "itens": [
+            "O gestor do SUS em cada ente da Federação elaborará Relatório Detalhado do Quadrimestre Anterior (RDQA), o qual conterá, no mínimo, as seguintes “informações”",
+            "II – auditorias realizadas ou em fase de execução no período e suas recomendações e determinações"
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O Sistema Nacional de Auditoria do SUS (SNA) possui o Sistema de Auditoria do SUS (Sisaud/SUS), de onde são importadas informações sobre auditorias realizadase em curso no estado ou no município. Caso o ente não tenha feito o registro regular dessas informações no Sisaud/SUS, deverá informar diretamente no DGMP."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Informações de auditoria.png",
+          "alt": "Tela com informações de auditoria"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Informações de auditoria 2.png",
+          "alt": "Tela com informações de auditoria 2"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O item 11 apresenta um campo para inserção das “Análises e Considerações Gerais” nos RDQA e no RG, além de oferecer ao usuário a possibilidade de anexar arquivos de imagens ou de texto, planilhas ou em formato PDF que considere importante para complementar os referidos relatórios. No caso do RG, o item 12 é reservado para registro das “Recomendações para o Próximo Exercício”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Análises e considerações gerais.png",
+          "alt": "Tela de análises e considerações gerais"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Por fim, o item “Checar Pendências” sinaliza os itens que ainda não foram preenchidos e permite gravar relatório, no caso do RDQA (item 12), e enviar para o Conselho de Saúde (item 13), no caso do RG, para a apreciação do respectivo Conselho."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Checar pendências e enviar ao Conselho de Saúde.png",
+          "alt": "Tela para checar pendências e enviar ao Conselho de Saúde"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Após o envio ao Conselho de Saúde, os formulários ficam bloqueados, mas podem ser consultados pelo gestor. Além disso, após a finalização, um arquivo PDF do relatório será gerado automaticamente no banco de dados e poderá ser baixado pelo usuário por meio da opção “Download Relatório” ou “Relatório PDF”."
+        },
+        {
+          "tipo": "imagem",
+          "src" :"/assets/img/digisus/download do relatorio.png",
+          "alt": "Tela para fazer download do relatório"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para finalizar, o Conselho de Saúde, em seu perfil, consegue visualizar todos os itens dos relatórios, sem a possibilidade de edição. Porém, no DGMP, assim como o gestor, o Conselho de Saúde necessariamente precisa se manifestar em todos os itens do relatório (exceto itens 1 e 2), além de “Emitir Parecer”, no caso do RG, e inserir “Análises e Considerações Gerais”, no caso do RDQA (item 13). O RG pode ser aprovado, aprovado com ressalva, reprovado ou retornado para ajuste, via sistema. Cabe, também, ao Conselho de Saúde anexar a resolução de apreciação."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Considerações do Conselho de Saúde.png",
+          "alt": "Tela do campo para inserção de considerações do Conselho de Saúde – RDQA e RG"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Emissão do parecer RG.png",
+          "alt": "Tela para emissão do parecer RG"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "É importante frisar que o DGMP é um sistema em construção, estando previstas melhorias para versões futuras, acompanhadas pela área técnica gestora do sistema."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Com essas novas formas de organizar e apresentar as informações de planejamento, procura-se valorizar uma sequência lógica e interligada entre os instrumentos de planejamento do SUS, dando mais agilidade na apresentação de informações pelo gestor, entregando para a gestão e para a sociedade meios de acompanhar o resultado das políticas públicas de saúde."
+        }
+      ]
     },
     {
       "id": "Apendice-Pactuacao-Interfederativa-de-Indicadores",
       "titulo": "Apêndice - Pactuação Interfederativa de Indicadores",
-      "conteudo": []
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A Pactuação Interfederativa de Indicadores, estabelecida por meio da Resolução CIT n.º 8, de 24 de novembro de 2016, vigorou entre os anos de 2017 e 2021. Os estados, o Distrito Federal (DF) e os municípios registravam os valores pactuados no Sistema de Pactuação de Indicadores de Saúde (Sispacto) até o ano de 2017. Entre 2018 e 2021, o registro passou a ser feito no DigiSUS Gestor – Módulo Planejamento (DGMP)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Após o ano de 2021, não houve decisões no âmbito da Comissão Intergestores Tripartite (CIT) sobre novas pactuações interfederativas. Assim, o DGMP apresenta a funcionalidade relativa à Pactuação Interfederativa de Indicadores para o ciclo de planejamento de 2018-2021 (municípios) e os ciclos de planejamento 2016-2019 e 2020-2023 (estados e DF). Para os ciclos de planejamento posteriores aos referidos, a funcionalidade em questão não está mais disponível."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Entretanto este manual faz referência à Pactuação Interfederativa de Indicadores por dois motivos: razões históricas, visto que no acesso público é possível realizar pesquisas sobre esses dados, e pelo fato de que ainda há entes federados que não registraram as pactuações no DGMP. Conforme dados apurados no sistema em 13 de maio de 2025, observou-se que 591 municípios (10,61% do total) têm pendência quanto a esse registro em pelo menos um dos anos dessa série histórica, e 677 municípios (12,06% do total) estão com as suas pactuações em análise no Conselho de Saúde em pelo menos um dos anos dessa série histórica."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nesse contexto, este documento configura-se como guia para os entes federados que possuem pendências quanto ao registro da Pactuação Interfederativa de Indicadores, o que impactará a elaboração dos relatórios dentro do sistema."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Importante ressaltar que a definição das metas da Pactuação Interfederativa de Indicadores é um acordo entre os entes federados, realizado a partir de muitas discussões. O que será feito no DGMP é o registro das metas pactuadas. O sistema não é condição para a definição de metas."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Esse componente incorpora as funcionalidades que até então pertenciam ao Sispacto, apresentando anualmente, para o registro das metas, a lista dos indicadores nacionais pactuados na CIT para cada período."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Os indicadores apresentados no DGMP são os que foram estabelecidos pela Resolução CIT n.º 8/2016. O sistema está preparado para receber indicadores de futuras pactuações CIT; entretanto, inicialmente, não há campo específico para registro de metas de pactuações locais. Caso haja indicadores decorrentes dessas pactuações, os registros devem ser lançados quando do cadastramento de Diretrizes, Objetivos, Metas e Indicadores (DOMI) no componente Plano de Saúde e monitorados nos componentes do Relatório Detalhado do Quadrimestre Anterior e do Relatório de Gestão (RDQA e RG)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Conforme a referida Resolução, foram estabelecidos 23 indicadores para pactuação no período de 2017 a 2021, mas um indicador, o número 20 – Percentual de municípios que realizam no mínimo seis grupos de ações de vigilância sanitária consideradasnecessárias a todos os municípios no ano –, foi excluído em 2019 da relação dos indicadores da Pactuação Interfederativa pela Resolução CIT n.º 45, de 25 de julho de 2019. Outra informação importante refere-se ao indicador número 22 – Número de ciclos que atingiram mínimo de 80% de cobertura de imóveis visitados para controle vetorial da dengue –, que deve ser pactuado somente pelos municípios."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Nesse ambiente da Pactuação Interfederativa de Indicadores, o gestor registrará as metas pactuadas para os indicadores, conforme as especificidades definidas nas fichas de qualificação. Na própria tela de registro das metas, será possível consultar a ficha de qualificação de cada um dos indicadores, além de uma série histórica com os resultados daquele indicador nos últimos cinco anos."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Pactuação.png",
+          "alt": "Pactuação"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para iniciar o preenchimento das metas, clica-se em “Ano de Pactuação” e seleciona-se o ano. Devem-se inserir as metas e salvar. Depois disso, clica-se em “Enviar”, para encaminhar para análise do Conselho de Saúde. Ao confirmar o envio, o sistema volta para a tela inicial da pactuação com a mensagem “Pactuação enviada para o Conselho de Saúde com sucesso”. Consultando o histórico de ações, o sistema abrirá outra tela mostrando a data e a hora de envio da pactuação para o Conselho de Saúde."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Dessa maneira, os municípios devem registrar as suas metas e encaminhá-las para apreciação do Conselho Municipal de Saúde (CMS), e os estados e o DF devem registrá-las e encaminhá-las para apreciação do Conselho Estadual de Saúde (CES)."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Pactuação Interfederativa de Indicadores.png",
+          "alt": "Visualização da Pactuação Interfederativa de Indicadores"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Historico de Ações.png",
+          "alt": "Visualização do histórico de ações"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O Conselho de Saúde, acessando seu perfil, terá acesso às metas preenchidas pelo gestor para que faça a inserção do parecer. Após a inclusão das considerações pelo Conselho de Saúde, este poderá retornar a pactuação, para ajustes pelo município (inicia-se o fluxo novamente), ou aprovar. Não há a opção de reprovação. Como se trata de uma pactuação, pressupõe-se que haja discussão entre os atores até que se encontre um consenso. O Conselho de Saúde deverá anexar a referida resolução, devidamente assinada por seu presidente. Destaca-se que, no perfil do Conselho de Saúde, não será possível editar os valores das metas."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Conselho de Saúde para emissão de parecer.png",
+          "alt": "Visualização do Conselho de Saúde para emissão de parecer"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Inserção de Considerações do Parecer.png",
+          "alt": "Inserção de Considerações do Parecer"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Após a aprovação e a inserção da resolução, a pactuação municipal é disponibilizada ao perfil estadual (técnico ou gestor) para homologação ou devolução ao CMS para algum ajuste. Após a homologação do perfil estadual, a pactuação do município é disponibilizada no item 8 do RDQA e do RG para inserção de resultados alcançados."
+        },
+        {
+          "tipo": "aviso",
+          "titulo": "",
+          "texto": "Enquanto não houver a homologação por parte do perfil estadual, a tela com as metas da pactuação permanecerá desabilitada para que o gestor ou o técnico do município registre resultados."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Pactuação a serem homologadas.png",
+          "alt": "Pactuação a serem homologadas"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Emitir parecer da Pactuação.png",
+          "alt": "Emitir parecer da Pactuação"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Parecer da Pactuação Interfederativa.png",
+          "alt": "Parecer da Pactuação Interfederativa"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Se, após a homologação, houver necessidade de realizar algum ajuste nas metas dos indicadores ou nos arquivos anexos, o mesmo fluxo deverá ser respeitado: homologação da Secretaria de Estado, aprovação do Conselho de Saúde e retorno à Secretaria Municipal."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "No caso dos estados e do DF, após aprovação e inserção da resolução, a pactuação é disponibilizada no item 8 do RDQA e RG para inserção de resultados alcançados. Enquanto não houver a aprovação por parte do CES, a tela com as metas da pactuação permanecerá desabilitada para que o gestor ou o técnico do estado ou DF registre resultados."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Como ficou evidente, todo o fluxo de envio e aprovação da pactuação acontece por meio do DGMP, entretanto os gestores devem sempre pautar, junto ao Conselho de Saúde, a discussão do tema relativo à pactuação das metas. Isso contribui para a qualificação da discussão e possibilita melhor entendimento do processo, o que pode facilitar a emissão do parecer. A realização de homologação pelo estado se mantém também via sistema."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Ou seja, diferentemente do Sispacto, o DGMP atende ao fluxo pactuado na referida Resolução CIT, indo além do registro das metas:"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/digisus/Fluxo pactuado.png",
+          "alt": "Fluxo pactuado"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Na fase de elaboração dos RDQA e do RG, a relação de indicadores e as metas pactuadas serão apresentadas para que o gestor insira e faça as considerações dos resultados alcançados no período. Nos relatórios quadrimestrais, o gestor deverá registrar resultados para indicadores, cuja apuração seja possível para o período, conforme resultados disponíveis nas bases locais. No caso do RG, o gestor deverá apresentar os resultados alcançados para todas as metas estabelecidas."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Em resumo, a Pactuação Interfederativa de Indicadores no DGMP representou um marco no fortalecimento do planejamento no SUS, proporcionando aos gestores ferramentas para um acompanhamento mais preciso e eficaz das metas da saúde, promovendo a melhoria contínua e a transparência na gestão pública."
+        }
+      ]
     }
   ]
 }
