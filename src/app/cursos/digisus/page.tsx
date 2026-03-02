@@ -85,7 +85,7 @@ const ContentRenderer = ({ item }: { item: ConteudoItem }) => {
           <Image
             src={item.src!}
             alt={item.alt!}
-            width={1000}
+            width={600}
             height={450}
             className="rounded-md shadow-md"
           />

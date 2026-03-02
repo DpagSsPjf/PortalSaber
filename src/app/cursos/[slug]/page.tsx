@@ -4,7 +4,6 @@ import path from "path";
 import { promises as fs } from "fs";
 import { notFound } from "next/navigation";
 import { SideBar } from "@/components/SideBar";
-import InteractionButtons from "@/components/InteractionButtons";
 import { ContentRenderer } from "@/components/CourseRenderer/ContentRenderer";
 import { generateSidebarItems } from "@/components/CourseRenderer/SidebarGenerator";
 import { CourseData } from "@/components/CourseRenderer/types";

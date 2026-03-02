@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { SideBar } from "@/components/SideBar";
-import InteractionButtons from "@/components/InteractionButtons";
 
 // Tipos
 type ConteudoItem = {
@@ -39,7 +38,7 @@ function generateSidebarItems(capitulos: Capitulo[]) {
       .map((sub) => ({
         title: sub.titulo!,
         slug: sub.titulo!.toLowerCase().replace(/\s+/g, "-"),
-      })),  
+      })),
   }));
 }
 
@@ -122,15 +121,13 @@ const getBaseUrl = () => {
 
 export default async function DocumentacaoGLPIPage() {
   const baseUrl = getBaseUrl();
-  
-  const response = await fetch(`${baseUrl}/api/cursos/glpi`, {
+
+  const response = await fetch(`${baseUrl}/cursos/glpi`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 
   // Boa prática: verificar se a chamada de API foi bem-sucedida
   if (!response.ok) {
-    // Isso vai acionar o error.tsx mais próximo na árvore de componentes
-    // Vamos lançar um erro mais detalhado para depuração
     throw new Error(`Falha ao carregar os dados do curso. Status: ${response.status} ${response.statusText}`);
   }
 
