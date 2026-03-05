@@ -3,18 +3,12 @@ import React, { useEffect, useState } from "react";
 import { Banner } from "@/components/Banner";
 import { LinkButton } from "@/components/LinkButton";
 import { type Curso } from "@/lib/data";
-import { useAuth } from "@/contexts/AuthContext";
 import { useRouter } from 'next/navigation';
-import { Pencil, Trash2 } from 'lucide-react';
 
 export default function HomePage() {
   const [mainCourses, setMainCourses] = useState<Curso[]>([]);
   const [isLoading, setIsLoading] = useState(true);
-  const { user, isAuthenticated } = useAuth();
   const router = useRouter();
-
-  // Verificar se o usuário é admin
-  const isAdmin = isAuthenticated && user?.role === 'ADMIN';
 
   useEffect(() => {
     async function loadMainCourses() {
@@ -38,30 +32,6 @@ export default function HomePage() {
     window.location.href = `/cursos/${courseSlug}`;
   };
 
-  const handleEditCourse = (e: React.MouseEvent, courseSlug: string) => {
-    e.preventDefault();
-    e.stopPropagation();
-    console.log('🔧 Editando curso:', courseSlug);
-    router.push(`/adm/addTutorial?edit=${courseSlug}`);
-  };
-
-  const handleDeleteCourse = async (e: React.MouseEvent, courseSlug: string) => {
-    e.preventDefault();
-    e.stopPropagation();
-    if (!confirm('Tem certeza que deseja excluir este curso?')) return;
-
-    try {
-      const res = await fetch(`/api/cursos/${courseSlug}`, { method: 'DELETE' });
-      if (!res.ok) {
-        const data = await res.json().catch(() => ({}));
-        throw new Error(data?.message || 'Falha ao excluir curso');
-      }
-      setMainCourses(prev => prev.filter(c => c.slug !== courseSlug));
-    } catch (err) {
-      console.error('Erro ao excluir curso:', err);
-      alert('Não foi possível excluir o curso.');
-    }
-  };
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -95,28 +65,7 @@ export default function HomePage() {
                     className="relative p-4 bg-white rounded-lg shadow-md transition-all duration-300 cursor-pointer group hover:shadow-xl hover:shadow-blue-600/80 hover:-translate-y-1 hover:scale-105"
                     onClick={() => handleCourseClick(course.slug)}
                   >
-                    {/* Botões de ação para admin */}
-                    {isAdmin && (
-                      <>
-                        <button
-                          onClick={(e) => handleEditCourse(e, course.slug)}
-                          className="absolute top-2 right-2 p-2 bg-blue-600 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-blue-700 z-10"
-                          title="Editar curso"
-                          aria-label="Editar curso"
-                        >
-                          <Pencil size={16} />
-                        </button>
-
-                        <button
-                          onClick={(e) => handleDeleteCourse(e, course.slug)}
-                          className="absolute top-12 right-2 p-2 bg-red-600 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-red-700 z-10"
-                          title="Excluir curso"
-                          aria-label="Excluir curso"
-                        >
-                          <Trash2 size={16} />
-                        </button>
-                      </>
-                    )}
+                    
 
                     <h3 className="font-semibold text-lg text-gray-800 mb-2">
                       {course.title}
