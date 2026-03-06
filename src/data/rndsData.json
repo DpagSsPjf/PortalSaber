@@ -1,0 +1,900 @@
+{
+  "id": "rnds",
+  "titulo": "Manual de Integração - RNDS",
+  "capitulos": [
+    {
+      "id": "Objetivo",
+      "titulo": "1 - Objetivo",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Este documento tem o objetivo de orientar Estados, Municípios, Distrito Federal, Estabelecimentos de Saúde ou Empresas Privadas que fornecem soluções/software na área de saúde a utilizarem os serviços (web services) que foram desenvolvidos para a RNDS – Rede Nacional de Dados em Saúde, fornecendo as orientações técnicas necessárias para a integração dos sistemas/soluções locais com a rede."
+        }
+      ]
+    },
+    {
+      "id": "Contextualização",
+      "titulo": "2 - Contextualização",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A Rede Nacional de Dados em Saúde é uma plataforma nacional de integração de dados em saúde que faz parte do Conecte SUS, um programa do Governo Federal que tem como principal missão materializar a Estratégia de Saúde Digital do Brasil."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A RNDS utiliza computação em nuvem e tecnologias emergentes para criar um repositório de documentos responsável por armazenar informações de saúde dos cidadãos, mantendo a privacidade, integridade e auditabilidade dos dados de maneira acessível e interoperável. Com isso, fornece aos profissionais de saúde acesso à história clínica do paciente, permitindo a transição e a continuidade do cuidado, além de possibilitar aos indivíduos acesso aos seus dados de saúde."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "",
+              "subitens": [
+                {
+                  "subtitulo": "Nota:",
+                  "texto": "Esta primeira entrega do projeto possibilita somente o compartilhamento de resultados de exame da COVID-19 realizados pelos Laboratórios de Análises Clínicas, permitindo a visualização dos resultados pelo cidadão e pelos profissionais de saúde.Com isso, os serviços (web services) permitirão que os Laboratórios de Análises Clínicas compartilhem os resultados de exames de detecção do COVID-19 com a RNDS de forma oportuna e confiável a quem precisa desta informação."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Neste contexto, serão abordados neste documento, os seguintes pontos:",
+              "subitens": [
+                {
+                  "subtitulo": "Modelo de Informação"
+                },
+                {
+                  "subtitulo": "Serviços"
+                },
+                {
+                  "subtitulo": "Meio de Integração"
+                },
+                {
+                  "subtitulo": "Segurança"
+                },
+                {
+                  "subtitulo": "Exemplos de consumo dos serviços"
+                },
+                {
+                  "subtitulo": "Validador local de profiles FHIR R4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Modelo de Informação",
+      "titulo": "3 - Modelo de Informação",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O Modelo de Informação definido para o envio de resultados de exame da COVID-19 está descrita na figura abaixo (ver original no Portal de Serviços, RNDS)."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Modelo_de_informacao_de_resultados_de_covid-19.png",
+          "alt": "Modelo de Informação de resultados de Covid-19"
+        }
+      ]
+    },
+    {
+      "id": "Serviços",
+      "titulo": "4 - Serviços",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para garantir a interoperabilidade entre as aplicações de Saúde Digital, em especial Prontuário(s) Eletrônico(s) do Paciente, portais e aplicações (web e mobile), a troca de informações ocorrerá por meio de de serviços (web services) RESTful, desenvolvidos de acordo com o padrão FHIR R4"
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.1 Auxiliares",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "A seguir estão listados os serviços que irão auxiliar no envio da informação principal, o resultado de exame."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/rnds/Lista_de_Serviços_Auxiliares.png",
+              "alt": "Lista de Serviços Auxiliares"
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "4.2 Principais",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "A seguir estão listados os serviços deverão ser usados para o envio ou consulta da informação principal, o resultado de exame de COVID-19."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/rnds/Lista_de_Serviços_Principais.png",
+              "alt": "Lista de Serviços Principais"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "No diagrama de sequência abaixo (ver original no Portal de Serviços, RNDS) está descrito o fluxo para envio de um documento clínico."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/rnds/Diagrama_de_Sequencia_envio_de_documento.png",
+              "alt": "Diagrama de Sequência - Enviar Documento"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "No diagrama de sequência abaixo (ver original no Portal de Serviços, RNDS) está descrito o fluxo de geração do contexto de atendimento para consulta aos documentos clínicos de um paciente."
+            },
+            {
+              "tipo": "imagem",
+              "src": "/assets/img/rnds/Consultar_timeline.png",
+              "alt": "Diagrama de Sequência - Consulta Timeline"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Nota",
+                  "subitens": [
+                    {
+                      "subtitulo": "O Conecte SUS Profissional (https://conectesus.saude.gov.br/) é a plataforma desenvolvida pelo Ministério da Saúde para que profissionais de saúde possam acessar as informações de saúde de um determinado paciente a partir de um contexto de atendimento. O contexto de atendimento indica que o paciente está ou passou por atendimento em um estabelecimento de saúde com um profissional de saúde."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Meio de Integração",
+      "titulo": "5 - Meio de Integração",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A integração com a RNDS dar-se-á por meio dos serviços (web services) mencionados acima. Seguindo as boas práticas serão disponibilizados dois ambientes para a integração: homologação e produção."
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "5.1 Ambiente de Homologação",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O ambiente de homologação tem como finalidade validar a integração, seus parâmetros de entradas, saídas e comportamentos negociais, permitindo a realização de testes antes da efetiva comunicação com o ambiente de produção. O ambiente de homologação é único, ou seja, todos os interessados em realizar o consumo dos serviços (web services) utilizarão o mesmo ambiente. Porém, mesmo usando o mesmo ambiente, as informações trafegadas (incluídas ou consultadas) estarão restritas aos estabelecimentos de saúde (CNES) elencados na etapa de credenciamento (capítulo 6 deste documento)."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Os endereços dos componentes de integração, no ambiente de homologação, são:",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ehr-services.hmg.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ehr-auth-hmg.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "subtopico",
+          "titulo": "5.2 Ambiente de Produção",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O ambiente de produção é o ambiente estável e real que provê os serviços (web services) a serem consumidos. Para o ambiente produtvo, os integradores deverão acessar os endereços dos seus estados (UF). Durante o credenciamento (capítulo 6 deste documento), a credencial de acesso (Certificado Digital) será associada a um estabelecimento de saúde (CNES) (ou conjunto de estabelecimentos de saúde) no Portal de Serviços do DATASUS. Com isso, a credencial de acesso pertencerá a um estado (UF) específico. Acessos a estados diferentes não são permitidos e serão bloqueados automaticamente pelos serviços (web services)."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Os endereços dos componentes de integração, no ambiente de produção, por estado, são"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Acre",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ac-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ac-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Alagoas",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://al-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://al-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Amapá",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ap-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ap-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Amazonas",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://am-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://am-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Bahia",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ba-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ba-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Ceará",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ce-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ce-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Distrito Federal",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://df-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://df-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Espírito Santo",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://es-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://es-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Goiás",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://go-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://go-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Maranhão",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ma-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ma-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Mato Grosso",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://mt-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://mt-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Mato Grosso do Sul",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ms-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ms-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Minas Gerais",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://mg-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://mg-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Pará",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://pa-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://pa-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Paraíba",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://pb-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://pb-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Paraná",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://pr-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://pr-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Pernambuco",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://pe-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://pe-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Piauí",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://pi-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://pi-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Rio de Janeiro",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://rj-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://rj-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Rio Grande do Norte",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://rn-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://rn-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Rio Grande do Sul",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://rs-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://rs-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Rondônia",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://ro-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://ro-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Roraima",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://rr-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://rr-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Santa Catarina",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://sc-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://sc-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "São Paulo",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://sp-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://sp-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Sergipe",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://se-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://se-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                {
+                  "titulo": "Tocantins",
+                  "subitens": [
+                    {
+                      "subtitulo": "https://to-ehr-services.saude.gov.br/api/"
+                    },
+                    {
+                      "subtitulo": "https://to-ehr-auth.saude.gov.br/api/"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Acesso ao barramento de serviços",
+      "titulo": "6 - Acesso ao barramento de serviços",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para a RNDS, o componente que realiza a função de Barramento de Serviços é o EHR Services. Para que seja possível acessar os serviços (web services) disponibilizados no EHR Services é necessário realizar solicitação de acesso no Portal de Serviços do DATASUS (https://servicos-datasus.saude.gov.br/)."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Portal_de_Serviços_do_DATASUS.png",
+          "alt": "Portal de Serviços do DATASUS"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Ao clicar em “Solicitar Acesso” na página inicial, o solicitante será encaminhado para a página que contém informações técnicas para apoiar a integração, além de poder formalizar seu pedido neste mesmo canal."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "",
+              "subitens": [
+                {
+                  "subtitulo": "Nota :",
+                  "texto": "para realizar o cadastro da solicitação de acesso será necessário fazer o upload de um certificado do tipo e-CNPJ ou e-CPF ICP-Brasil. O certificado ficará associado ao estabelecimento de saúde (ou lista de estabelecimentos de saúde) informado na solicitação de acesso."
+                },
+                {
+                  "subtitulo": "Importante :",
+                  "texto": "caso a solicitação seja para uma lista de estabelecimentos de saúde, todos deverão ser, obrigatoriamente, do mesmo estado (UF)."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Segurança",
+      "titulo": "7 - Segurança",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Somente com uma solicitação de acesso aprovada será possível realizar o consumo dos serviços (web services) do EHR Services."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Após a aprovação, o primeiro passo para realizar o consumo dos serviços é realizar a autenticação utilizando o serviço POST@/token no componente EHR Auth. Durante o processo de autenticação é verificado se o certificado digital está dentro do período de vigência e se ele, ou um de seus superiores na cadeia, foi revogado."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Caso não ocorra nenhum destes problemas, a operação de autenticação será realizada com sucesso e será retornado um token (access_token) com tempo de vida de 15 minutos."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Este token deverá ser utilizado como token de autenticação nas chamadas dos serviços (web services) do EHR-Services. A estrutura do token retornado é a seguinte:"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Exemplo_de_token_de_acesso.png",
+          "alt": "Exemplo de token de acesso"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A autenticação com certificado digital da RNDS utiliza a técnica chamada “Two-way SSL”. No “Two-way SSL”, além do certificado do servidor, o cliente também deve utilizar um certificado válido e que será conferido. Por outro lado, na autenticação SSL (ou “One-way SSL”) somente o certificado digital do servidor deve ser válido e será conferido."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Vale ressaltar que o certificado digital deve ser usado somente para realizar a autenticação e gerar o token. A partir desse momento, o token é seu ‘ticket’ de passe e todas as chamadas devem ser usadas utilizando somente este, não gerando a degradação de performance relacionada ao uso do certificado digital. Por isso, recomenda-se reutilizar o ‘ticket’ ao máximo durante seu tempo de vida e só então gerar um novo token repetindo a operação de autenticação com ‘Two-way SSL’."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Na página da RNDS no Portal de Serviços do DATASUS há um projeto de exemplo para geração do token utilizando a linguagem Java."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Referências:",
+              "subitens": [
+                {
+                  "subtitulo": "https://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication"
+                },
+                {
+                  "subtitulo": "https://developer.visa.com/pages/working-with-visa-apis/two-way-ssl https://en.wikipedia.org/wiki/Mutual_authentication"
+                },
+                {
+                  "subtitulo": "https://www.codeproject.com/Articles/326574/An-Introduction-to-Mutual-SSL-Authentication"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Exemplos de consumo dos serviços",
+      "titulo": "8 - Exemplos de consumo dos serviços",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Para facilitar o processo de desenvolvimento da integração por parte das equipes técnicas, está disponível, também na página da RNDS no Portal de Serviços, um arquivo com scripts para a ferramenta Postman. Este arquivo contém exemplos de consumo de todos os serviços descritos neste documento."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Para executar estes scripts, a primeira tarefa é realizar a configuração do Certificado Digital usado na etapa de credenciamento (capítulo 6 deste documento). Conforme já mencionado, é com ele que será feita a autenticação (capítulo 7 deste documento). Abaixo, está descrito o passo a passo para realizar esta configuração:"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 1: na tela principal do Postman, abra a tela de configurações."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_1.png",
+          "alt": "Postman - Passo 1"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 2: selecione a aba “Certificates”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_2.png",
+          "alt": "Postman - Passo 2"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 3: selecione a opção para adicionar um novo certificado de cliente."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_3.png",
+          "alt": "Postman - Passo 3"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 4: preencha os campos com os valores."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "",
+              "subitens": [
+                {
+                  "subtitulo": "Host",
+                  "texto": "ehr-auth-hmg.saude.gov.br"
+                },
+                {
+                  "subtitulo": "PFX file",
+                  "texto": "selecione o arquivo no formato “pkcs12” do seu certificado digital;"
+                },
+                {
+                  "subtitulo": "Passphrase",
+                  "texto": "preencha com a chave privada do certificado."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Salve clicando em “Add”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_4.png",
+          "alt": "Postman - Passo 4"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 5: Pronto, o certificado está instalado e será utilizado automaticamente para o host de autenticação do EHR-AUTH. Com isso, os scripts já podem ser executados. Não há necessidade de nenhuma outra configuração."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Postman_Passo_5.png",
+          "alt": "Postman - Passo 5"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Referências : https://learning.postman.com/docs/postman/sending-api-requests/certificates/ ."
+        }
+      ]
+    },
+    {
+      "id": "Validador local de profiles FHIR R4",
+      "titulo": "9 - Validador local de profiles FHIR R4",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Também para apoiar no processo de integração, foi desenvolvida uma aplicação para que as equipes técnicas possam realizar a validação de conformidade dos documentos clínicos gerados localmente com o padrão da adoção FHIR R4 definida pelo Ministério da Saúde."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O objetivo é trazer flexibilidade e agilidade no processo de implementação, por parte das equipes técnicas, do código que irá gerar o JSON com o documento clínico no padrão FHIR R4. O único pré-requisito para rodar esta aplicação é a existência do JAVA 8 instalado na máquina, permitindo que a mesma seja utilizada em diversos sistemas operacionais. O arquivo compactado da aplicação está disponível na página da RNDS no Portal de Serviços do DATASUS. A seguir, será descrito o passo a passo para utilização:"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Passo 1: Após realizar o download do arquivo e descompactá-lo, clicar no arquivo “executar” para iniciar a aplicação."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Executando o aplicativo.png",
+          "alt": "Validador - Passo 1"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            {
+              "titulo": "Passo 2: Com a aplicação rodando, será possível ver a tela abaixo. Nela, para realizar a validação, será necessário informar 3 parâmetros:",
+              "subitens": [
+                {
+                  "subtitulo": "Local Arquivos Definição:",
+                  "texto": "deverá ser informado o local onde os arquivos de definição da adoção FHIR R4 do Ministério da Saúde foram salvos. Estes arquivos estão disponíveis para download na página da RNDS no Portal de Serviços do DATASUS."
+                },
+                {
+                  "subtitulo": "Arquivo JSON Exemplo:",
+                  "texto": "neste local deverá ser informado o local onde está salvo o arquivo que se deseja validar. A aplicação aceita um arquivo com apenas um JSON ou com um array de JSON’s. Um arquivo válido e preenchido com dados fictícios também está disponível na página da RNDS no Portal de Serviços do DATASUS."
+                },
+                {
+                  "subtitulo": "Arquivo JSON Mensagens:",
+                  "texto": "deverá ser informado o local onde o validador irá salvar as mensagens de erro (inconformidades com os arquivos de definição) ou de sucesso."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Neste ponto, a aplicação está pronta para validar o arquivo. Basta clicar no botão “Validar”."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Parametrização do aplicativo.png",
+          "alt": "Validador - Passo 2"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Caso se tenha feito a validação de arquivo que contém inconformidades em relação ao padrão definido pelo Ministério da Saúde, aplicação exibirá uma tela semelhante a esta:"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Arquivo JSON com erros.png",
+          "alt": "Validador - Passo 3"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Ao ter acesso aos erros encontrados no arquivo, as equipes técnicas terão as informações necessárias para corrigir as falhas e produzir um arquivo em conformidade como padrão definido. Assim, ao validar o arquivo será exibida uma tela semelhante a esta:"
+        },
+        {
+          "tipo": "imagem",
+          "src": "/assets/img/rnds/Validador Local - Arquivo JSON sem erros.png",
+          "alt": "Validador - Passo 4"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Neste ponto, as equipes técnicas estão aptas a enviar os arquivos para o ambiente de homologação com a garantia de que os mesmos não serão bloqueados por não conformidades com os profiles de documentos. Vale ressaltar que o EHR Services ainda validará referências e outras regras que não competem aos profiles."
+        }
+      ]
+    }
+  ]
+}

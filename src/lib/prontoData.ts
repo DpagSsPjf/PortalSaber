@@ -117,7 +117,7 @@ export const tutoriaisPronto: Tutorial[] = [
   },
   {
     id: "9",
-    titulo: "Cadastrar SUS",
+    titulo: "Cadastrar Cidadão",
     slug: "cadastrarCidadao",
     profissaoSlug: "agenteComunitarioSaude",
     imagemSrc: "/assets/icons/pronto/Recepicionista.webp",

@@ -25,10 +25,26 @@
   },
   {
     "id": 4,
-    "title": "Sistema Pronto",
+    "title": "Agendamento tira dúvidas",
     "image": "/uploads/images/1754939485632_LogoPronto.jpeg",
-    "slug": "sistema-pronto",
-    "description": "Cadastrar Usuário...",
+    "slug": "tiraDuvidas",
+    "description": "Agendar tira dúvidas via 1Doc para o sistema PRONTO.",
     "role": "Saude"
+  },
+  {
+    "id": 5,
+    "title": "DigiSUS",
+    "image": "/assets/images/DigiSUS_Logo.png",
+    "slug": "digisus",
+    "description": "Navegando pelo DigiSUS...",
+    "role": "SUS"
+  },
+  {
+    "id": 6,
+    "title": "RNDS",
+    "image": "/assets/images/rnds_logo.png",
+    "slug": "rnds",
+    "description": "Explorando a Rede Nacional de Dados em Saúde (RNDS)",
+    "role": "SUS"
   }
 ]
