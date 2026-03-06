@@ -122,13 +122,15 @@ const getBaseUrl = () => {
 export default async function DocumentacaoGLPIPage() {
   const baseUrl = getBaseUrl();
 
-  const response = await fetch(`${baseUrl}/cursos/glpi`, {
+  const response = await fetch(`${baseUrl}/api/cursos/glpi`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 
   // Boa prática: verificar se a chamada de API foi bem-sucedida
   if (!response.ok) {
-    throw new Error(`Falha ao carregar os dados do curso. Status: ${response.status} ${response.statusText}`);
+    throw new Error(
+      `Falha ao carregar os dados do curso. Status: ${response.status} ${response.statusText}`,
+    );
   }
 
   const glpiData: GLPIData = await response.json();

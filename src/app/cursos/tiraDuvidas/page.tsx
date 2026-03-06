@@ -38,7 +38,7 @@ function generateSidebarItems(capitulos: Capitulo[]) {
       .map((sub) => ({
         title: sub.titulo!,
         slug: sub.titulo!.toLowerCase().replace(/\s+/g, "-"),
-      })),  
+      })),
   }));
 }
 
@@ -121,8 +121,8 @@ const getBaseUrl = () => {
 
 export default async function DocumentacaoTiraDuvidasPage() {
   const baseUrl = getBaseUrl();
-  
-  const response = await fetch(`${baseUrl}/cursos/tiraDuvidas`, {
+
+  const response = await fetch(`${baseUrl}/api/cursos/tiraDuvidas`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 
@@ -130,7 +130,9 @@ export default async function DocumentacaoTiraDuvidasPage() {
   if (!response.ok) {
     // Isso vai acionar o error.tsx mais próximo na árvore de componentes
     // Vamos lançar um erro mais detalhado para depuração
-    throw new Error(`Falha ao carregar os dados do curso. Status: ${response.status} ${response.statusText}`);
+    throw new Error(
+      `Falha ao carregar os dados do curso. Status: ${response.status} ${response.statusText}`,
+    );
   }
 
   const tiraDuvidasData: TiraDuvidasData = await response.json();
