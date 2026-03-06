@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "RNDS",
-    "image": "/assets/images/RNDS_logo.png",
+    "image": "/assets/images/RNDS_Logo.png",
     "slug": "rnds",
     "description": "Explorando a Rede Nacional de Dados em Saúde (RNDS)",
     "role": "SUS"
