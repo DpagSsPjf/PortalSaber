@@ -121,7 +121,7 @@ export const tutoriaisPronto: Tutorial[] = [
     slug: "cadastrarCidadao",
     profissaoSlug: "agenteComunitarioSaude",
     imagemSrc: "/assets/icons/pronto/Recepicionista.webp",
-    url: undefined,
+    url: "https://docs.google.com/videos/d/1yBRSBKADA7Sdr7hXEg_9TG1UJC6C_BV5px8AU0l_nWQ/edit?usp=drive_link",
   },
   {
     id: "10",
@@ -129,7 +129,7 @@ export const tutoriaisPronto: Tutorial[] = [
     slug: "cadastrarDomicilio",
     profissaoSlug: "agenteComunitarioSaude",
     imagemSrc: "/assets/icons/pronto/Recepicionista.webp",
-    url: undefined,
+    url: "https://drive.google.com/file/d/1oRTTsT9znaKifzrOUkVm3EMGa5aRiGQI/view?usp=sharing",
   },
   {
     id: "11",
@@ -145,7 +145,7 @@ export const tutoriaisPronto: Tutorial[] = [
     slug: "enviarDados",
     profissaoSlug: "agenteComunitarioSaude",
     imagemSrc: "/assets/icons/pronto/Recepicionista.webp",
-    url: undefined,
+    url: "https://drive.google.com/file/d/1YirgP-gppQYkgWYlsgGB_2EBVW_XAZZY/view?usp=sharing",
   },
   {
     id: "13",
