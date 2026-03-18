@@ -122,7 +122,7 @@ const getBaseUrl = () => {
 export default async function DocumentacaoGLPIPage() {
   const baseUrl = getBaseUrl();
 
-  const response = await fetch(`${baseUrl}/cursos/glpi`, {
+  const response = await fetch(`${baseUrl}/api/cursos/glpi`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 

@@ -121,7 +121,7 @@ export const tutoriaisPronto: Tutorial[] = [
     slug: "cadastrarCidadao",
     profissaoSlug: "agenteComunitarioSaude",
     imagemSrc: "/assets/icons/pronto/Recepicionista.webp",
-    url: "https://docs.google.com/videos/d/1yBRSBKADA7Sdr7hXEg_9TG1UJC6C_BV5px8AU0l_nWQ/edit?usp=drive_link",
+    url: "https://drive.google.com/file/d/1lTgHGH6iwyKdg7vDeSsyRXjjsKb6Fd12/view?usp=sharing&t",
   },
   {
     id: "10",
@@ -129,7 +129,7 @@ export const tutoriaisPronto: Tutorial[] = [
     slug: "cadastrarDomicilio",
     profissaoSlug: "agenteComunitarioSaude",
     imagemSrc: "/assets/icons/pronto/Recepicionista.webp",
-    url: "https://drive.google.com/file/d/1oRTTsT9znaKifzrOUkVm3EMGa5aRiGQI/view?usp=sharing",
+    url: "https://drive.google.com/file/d/1teQxuAvglxUOGGyVCMIn8qWyEQDzea2S/view?usp=sharing",
   },
   {
     id: "11",
@@ -137,7 +137,7 @@ export const tutoriaisPronto: Tutorial[] = [
     slug: "adicionarMembro",
     profissaoSlug: "agenteComunitarioSaude",
     imagemSrc: "/assets/icons/pronto/Recepicionista.webp",
-    url: undefined,
+    url: "https://drive.google.com/file/d/1ogJW_9opWJ5DZi-EDqxg3e3H3GAasBrS/view?usp=sharing&t",
   },
   {
     id: "12",
@@ -212,11 +212,6 @@ export const tutoriaisPronto: Tutorial[] = [
     url: "https://drive.google.com/file/d/1eFxUeMgi7aLqwmIbn5ID55Obx_57MM1h/view?usp=drive_link",
   },
 ];
-
-
-
-
-
 
 
 // Funções helper para buscar dados (simulação)

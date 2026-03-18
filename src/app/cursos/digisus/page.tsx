@@ -153,7 +153,7 @@ const getBaseUrl = () => {
 export default async function DocumentacaoDigiSUSPage() {
   const baseUrl = getBaseUrl();
   
-  const response = await fetch(`${baseUrl}/cursos/digisus`, {
+  const response = await fetch(`${baseUrl}/api/cursos/digisus`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 

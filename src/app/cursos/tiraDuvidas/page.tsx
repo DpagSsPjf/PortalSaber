@@ -122,7 +122,7 @@ const getBaseUrl = () => {
 export default async function DocumentacaoTiraDuvidasPage() {
   const baseUrl = getBaseUrl();
   
-  const response = await fetch(`${baseUrl}/cursos/tiraDuvidas`, {
+  const response = await fetch(`${baseUrl}/api/cursos/tiraDuvidas`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 

@@ -122,7 +122,7 @@ const getBaseUrl = () => {
 export default async function DocumentacaoRNDSPage() {
   const baseUrl = getBaseUrl();
   
-  const response = await fetch(`${baseUrl}/cursos/rnds`, {
+  const response = await fetch(`${baseUrl}/api/cursos/rnds`, {
     cache: "no-store", // Garante que os dados sejam sempre frescos
   });
 
