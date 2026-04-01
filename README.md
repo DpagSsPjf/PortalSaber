@@ -14,7 +14,6 @@ LINK:(https://portal-saber.vercel.app/)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Como instalar e executar](#como-instalar-e-executar)
 - [Workflow de Desenvolvimento](#workflow-de-desenvolvimento)
-- [Banco de Dados e Prisma](#banco-de-dados-e-prisma)
 - [Padrões e Dicas](#padrões-e-dicas)
 - [Créditos](#créditos)
 - [Licença](#licença)
@@ -52,7 +51,6 @@ A Prefeitura de Juiz de Fora utiliza diversas plataformas digitais no dia a dia 
 - [Next.js](https://nextjs.org/) (React Framework)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Prisma](https://www.prisma.io/) (ORM)
 - [Node.js](https://nodejs.org/)
 
 ---
@@ -71,7 +69,7 @@ A Prefeitura de Juiz de Fora utiliza diversas plataformas digitais no dia a dia 
    ```
 
 3. **Configure as variáveis de ambiente**  
-   Copie o arquivo `.env.example` para `.env` e ajuste conforme sua configuração local.
+   Copie o arquivo `.example.env` para `.env` e ajuste conforme sua configuração local.
 
 4. **Execute o servidor de desenvolvimento**
    ```bash
@@ -96,19 +94,6 @@ A Prefeitura de Juiz de Fora utiliza diversas plataformas digitais no dia a dia 
   5. Nunca faça push direto para `main` ou `Dev`.
 
 Veja detalhes do workflow no [Guia de Desenvolvimento](#workflow-de-desenvolvimento).
-
----
-
-## Banco de Dados e Prisma
-
-Para rodar o banco de dados localmente usando Prisma:
-
-```bash
-npx prisma generate
-npx prisma migrate dev --name init
-npx prisma db seed
-npx prisma studio
-```
 
 ---
 
